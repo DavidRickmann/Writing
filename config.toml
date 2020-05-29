@@ -1,0 +1,54 @@
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = true 
+canonifyurls = false
+theme = "hugo-tufte"
+title = "Dave's Notebook"
+GoogleAnalytics = "UA-167883624-1"
+
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+
+
+[taxonomies]
+  category = "categories" 
+  refs = "refs"
+  series = "series"
+  tag = "tags"
+
+[params]
+  subtitle = "Writing Practice by David Rickmann."
+  copyrightHolder = "David Rickmann"
+  showPoweredBy = false
+
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Home"
+  pre = "<i class='fa fa-home fa-lg'></i> "
+  weight = 10 
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "Posts"
+  pre = "<i class='fa fa-book fa-lg'></i> "
+  weight = 20 
+  identifier = "posts"
+  url = "/post"
+[[menu.nav]]
+  name = "Tags"
+  pre = "<i class='fa fa-tags fa-lg'></i> "
+  weight = 40 
+  identifier = "tags"
+  url = "/tags"
+
+
+# -----------------------------------------------------------------------
+# Footer menu 
+# -----------------------------------------------------------------------
+

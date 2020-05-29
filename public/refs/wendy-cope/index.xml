@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wendy Cope on Lisa&#39;s Notebook</title>
+    <link>/refs/wendy-cope/</link>
+    <description>Recent content in Wendy Cope on Lisa&#39;s Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/refs/wendy-cope/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How Not to Think like Sherlock Holmes [Part Two]</title>
+      <link>/2020/05/09/how-not-to-think-like-sherlock-holmes-part-two/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/09/how-not-to-think-like-sherlock-holmes-part-two/</guid>
+      <description>So yesterday I analysed the argumentative structure of a section of the argument put forward by Sherlock in the Study in Pink. One of the purposes of this exercise was to illustrate various argument structures: it’s a good way of demonstrating what deduction actually is, what deductively valid and deductively sound arguments are, and what inductively forceful arguments are. The other purpose, however, was to illustrate the discrepancy between how good Sherlock’s arguments are perceived to be by others, and how good they actually are.</description>
+    </item>
+    
+  </channel>
+</rss>

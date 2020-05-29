@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>-&#34;Elephants&#34; on Dave&#39;s Notebook</title>
+    <link>/series/elephants/</link>
+    <description>Recent content in -&#34;Elephants&#34; on Dave&#39;s Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/series/elephants/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Topsy</title>
+      <link>/2020/05/28/topsy/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/28/topsy/</guid>
+      <description>I have a fascination with Elephants.One of the goals of the daily writing practice is to contribute towards a biography of famous elephants.&amp;#8853; I think it might take a while before I get to that point, so I’ll probably revisit the stories of different elephants a fair bit on the way. This piece is really intended to be a very very brief introduction to Topsy This came about after reading about Topsy.</description>
+    </item>
+    
+  </channel>
+</rss>
