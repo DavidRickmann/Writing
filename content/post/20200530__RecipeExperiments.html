@@ -1,0 +1,61 @@
+---
+title: "Recipes in R"
+author: "David Rickmann"
+date: "2020-05-30"
+series:
+  -"Making a Cookbook"
+  -"Recipes"
+output: html_document
+---
+
+
+
+<p>I haven’t used much R Markdown before. I briefly played about with it for producing self reporting models, but the transport consulting world likes what it likes. {{% marginnote %}} and what they like is excel models and word reports {{% /marginnote %}} I haven’t had the time to explore further. So this writing site is my main experiment area for R Markdown.</p>
+<p>I’m going to look into an R Markdown solution for my recipes problem.
+There’s a few things I like to cook, I like to start with a recipe and then I might tweak it a bit here and there, or try variants. Then I lose the recipe or any notes I might have made.
+What I hope to be able to acheive is to find a good, fairly standard way of recording recipes I like, publishing them, versioning them, and making notes. {{% marginnote %}} My wife and I have different strategies for <a href="https://notebook.lisamcnulty.co.uk/2020/05/14/tom-yum-ish-soup/">writing about cookery</a> {{% /marginnote %}}
+Maybe I can even do some analytics on the full dataset.</p>
+<p>Let’s begin with a recipe I made today.</p>
+<div id="sourdough-waffles" class="section level2">
+<h2>Sourdough Waffles</h2>
+<p>first, the ingredients.</p>
+<ul>
+<li>5 oz (1 cup) all purpose flour</li>
+<li>1 1/2 teaspoons baking powder</li>
+<li>2 tablespoons sugar</li>
+<li>1 teaspoon salt</li>
+<li>2 eggs</li>
+<li>1/2 cup of milk</li>
+<li>8 oz sourdough starter</li>
+<li>3 tablespoons butter, melted</li>
+</ul>
+<p>so. One thing leaps out at me, which is that the recipe is in imperial.
+I can work with that, but I prefer not to.
+So we need to be able to convert easily between metric, imperial and in some cases volume. {{% marginnote %}} I do see the appeal of being able to sue a cup to measure all your stuff and still end up with a fairly decent cake, but ultimately it’s an unreliable method. A cup of flour scooped from the bag and levelled is 6 oz. A cup of flour spooned into the cup then levelled might only be 4.25 oz <a href="http://www.mybakingaddiction.com/how-to-measure-flour/">according to this site</a>. That’s 49.612g difference per cup! {{% /marginnote %}}</p>
+<p>My preference would be for the recipe to be stored as metric and then converted to other units as needed.</p>
+<p>I noticed, this morning as I was cooking these waffles that my new scales let’s me switch to ml(water) and ml(milk). I’ve always, lazily, assumed that the density of milk is basically the same as that of water and used that. But my scales say different.
+So, if I’m going to automatically convert between volume and mass I’ll need to do this on a per ingredient basis.
+I think that’s an issue I can put on the back burner for now because conversion can be the job of whatever displays these recipes. That said it suggests we need some consistency in the name field if we’re to look up conversion factors.</p>
+<p>Does that tell us anything about how to put together the info for storage.
+Well, a bit. We don’t want to call an ingredient “Butter, melted” because:</p>
+<ol style="list-style-type: decimal">
+<li>it would make it harder to look up conversion factors or alternatives.</li>
+<li>we’re actually mixing preparation instructions in with the ingredients.</li>
+<li>that’s a volume measurement, and it introduces an ambiguity. Does the volume of butter change if you melt it?</li>
+</ol>
+<p>So, we’ll change that to be a mass measurement, and move the melting part into the method.</p>
+<p>There is a question about teaspoons and tablespoons.
+These do have mass equivalents, but they can get a bit silly.
+I think my instincts would be to store them as gram measurements but retain the ability to output to teaspoons.
+This probably makes sense for things like a pinch of salt.</p>
+<p>Store with the higher level of precision but allow some vagueness in the output.</p>
+<p>There are still a couple of different types of measurements left to deal with.
+Eggs are not subdividable. You can’t add half an egg (well you could, but it would be really annoying).</p>
+<p>So, that I think is the strategy.
+Store in grams so we can scale but parse the output to customary measures.</p>
+<p>There may be some fine tuning needed, but as a sort of rule of thumb we can say store “a pinch” as 1 g, “a dash” as 3g? “a teaspoon”&quot; as 6g and so on.
+That means that is for some reason I need to scale a recipe up a thousand fold we don’t end up with 1000 pinches of salt.</p>
+<p>I’ve run out of time today to go much further, but the key principles are there.
+Stick to consistent units in the storage criteria as far as possible, but don’t enforce it where it would complicate rather than simplify.
+Parse into customary units when it’s output.</p>
+</div>
