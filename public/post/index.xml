@@ -5,10 +5,20 @@
     <link>/post/</link>
     <description>Recent content in Posts on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>All the gears and cogs</title>
+      <link>/2020/06/02/all-the-gears-and-cogs/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/02/all-the-gears-and-cogs/</guid>
+      <description>This is planned to be a brief note on the things I used to make this website.
+I needed to make a website for someone to post their daily writing. &amp;#8853; It turned out that this daily writing habit was having a lot of benefits for them, so I copied it  So, my first instinct was of course, to load up R Studio and start there.</description>
+    </item>
     
     <item>
       <title>The Colours of Butterflies</title>
@@ -26,7 +36,7 @@ So here is a short post about butterflies.</description>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/05/31/alternate-cinderella-stories/</guid>
-      <description>I was just watching the new(ish) Cindarella film (Because I have a small child who was busy ignoring it). It was pretty good. Though true to the original animated one Cinderella has basically zero agency and things just happen to her. &amp;#8853; I liked the goose though.  It made me think of some alternate takes on the story.
+      <description>I was just watching the new(ish) Cinderella film (Because I have a small child who was busy ignoring it). It was pretty good. Though true to the original animated one Cinderella has basically zero agency and things just happen to her. &amp;#8853; I liked the goose though.  It made me think of some alternate takes on the story.
 Magic as a weapon of social privilege.Cinderella marries Prince Charming &amp;#8853; He’s lucky he’s a prince, with a name like that.</description>
     </item>
     

@@ -1,0 +1,76 @@
+---
+title: "All the gears and cogs"
+author: "David Rickmann"
+date: "2020-06-02"
+output: html_document
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is planned to be a brief note on the things I used to make this website. 
+
+I needed to make a website for [someone](notebook.lisamcnulty.co.uk) to post their daily writing. {{% marginnote %}} It turned out that this daily writing habit was having a lot of benefits for them, so I copied it {{% /marginnote %}} So, my first instinct was of course, to load up R Studio and start there.
+
+I like R and I like R studio. 
+
+I started using R when I was working on rail demand data. A collegue was leaving and had put together some R code to process large data files. They needed someone to take over the project and I tended to get the job of picking up stuff that looked a bit too... code-like for the other engineers. {{% marginnote %}} A lot of modellers do all their modelling in Excel and all their reports in Word and never touch anything else. Excel mixes up data and logic and also doesn't play well with version control. Basically many modellers are more scared of code than they should be. {{% /marginnote %}}. It turned out that I really liked it. Part of that was that I was dealing with things which were inherently dataframe shaped, and that's something that R does exceptionally well, but it's also that the R community is tremendously helpful and nice. {{% marginnote %}} It also helps that whenever I run into something I want to do it turns out that [Hadley Wickham](https://www.tidyverse.org/) has already written a package to do what I wanted. {{% /marginnote %}}
+
+I'd already put together a [website for myself](https://www.davidrickmann.co.uk) as somewhere to write up some of my previous projects and act as a portfolio. This used a package called [blogdown](https://bookdown.org/yihui/blogdown/) to turn R markdown into static websites. So I copied that source code, stripped out most of the bells and some of the whitles and offered that up. This was rejected as being too polished looking for a notepad blog. Fair point really. So inspired by a few other [notebook like blogs](http://notebooks.rixx.de) I used a [tufte-css hugo theme](https://github.com/shawnohare/hugo-tufte).
+
+The advantage of this is that if I want a needlessly elaborate graph, I can include bits of R code very very easily... {{% marginnote %}} This is a force directed network graph showing people who have co authored a paper with [Vincent Ranwez](https://sites.google.com/site/ranwez/). I grabbed it from [here](https://www.data-to-viz.com/graph/network.html) to use as an example and a test. {{% /marginnote %}} 
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Libraries
+library(tidyverse)
+library(viridis)
+library(patchwork)
+library(hrbrthemes)
+library(ggraph)
+library(igraph)
+library(networkD3)
+
+# Load researcher data
+dataUU <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/13_AdjacencyUndirectedUnweighted.csv", header=TRUE)
+
+# Transform the adjacency matrix in a long format
+connect <- dataUU %>% 
+  gather(key="to", value="value", -1) %>%
+  na.omit()
+
+# Number of connection per person
+c( as.character(connect$from), as.character(connect$to)) %>%
+  as.tibble() %>%
+  group_by(value) %>%
+  summarize(n=n()) -> coauth
+colnames(coauth) <- c("name", "n")
+
+# NetworkD3 format
+graph=simpleNetwork(connect)
+
+# Plot
+simpleNetwork(connect,     
+        Source = 1,                 # column number of source
+        Target = 2,                 # column number of target
+        height = 880,               # height of frame area in pixels
+        width = 1980,
+        linkDistance = 10,         # distance between node. Increase this value to have more space between nodes
+        charge = -4,              # numeric value indicating either the strength of the node repulsion (negative value) or attraction (positive value)
+        fontSize = 5,              # size of the node names
+        fontFamily = "serif",       # font og node names
+        linkColour = "#666",        # colour of edges, MUST be a common colour for the whole graph
+        nodeColour = "#69b3a2",     # colour of nodes, MUST be a common colour for the whole graph
+        opacity = 0.9,              # opacity of nodes. 0=transparent. 1=no transparency
+        zoom = T                    # Can you zoom on the figure?
+        )
+```
+
+
+Anyway... This all gets sent to github. (A popular hub for software projects using the git version control tool).
+My github repository is monitored by [netlify](https://www.netlify.com/) and whenever I push a new post it grabs the changes, rebuilds the site and redeploys it. 
+
+And that's how it all works.
+

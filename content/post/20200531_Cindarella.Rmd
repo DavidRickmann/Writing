@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-I was just watching the new(ish) [Cindarella film](https://www.imdb.com/title/tt1661199/) (Because I have a small child who was busy ignoring it). It was pretty good. Though true to the original animated one Cinderella has basically zero agency and things just happen to her. {{% marginnote%}}  I liked [the goose](https://twitter.com/DavidRickmann/status/1267048081436151811) though. {{% /marginnote %}}
+I was just watching the new(ish) [Cinderella film](https://www.imdb.com/title/tt1661199/) (Because I have a small child who was busy ignoring it). It was pretty good. Though true to the original animated one Cinderella has basically zero agency and things just happen to her. {{% marginnote%}}  I liked [the goose](https://twitter.com/DavidRickmann/status/1267048081436151811) though. {{% /marginnote %}}
 
 It made me think of some alternate takes on the story.
 

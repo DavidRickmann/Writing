@@ -1,0 +1,22 @@
+---
+title: "Expertise"
+author: "David Rickmann"
+date: "2020-06-02"
+output: html_document
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I'm at an odd point with expertise. I'm clearly an expert at something. I have all the trappings. I tend to be employed as a senior something or a principal something else. I've been doing what is now called "Data Science" for at least 15 years. But I don't really feel like I know anything. Or at least, everything I do think I know is very obvious. Anyone could do it.
+
+The problem is (I hope) to do with 
+
+Everything I read is written by people who really do know what they're doing. Those are the people I want to learn things from. There are lots of them and they all know a lot of things that I do not know. Those are the intersting and useful skills, not the ones I've got.
+
+
+
+
+For now I will try and comfort myself with the thought that it's my expertise that highlights 
