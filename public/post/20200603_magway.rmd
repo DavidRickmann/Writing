@@ -1,0 +1,22 @@
+---
+title: "Hyperloop (But Good)"
+author: "David Rickmann"
+date: "2020-06-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hyperloop really annoys me. It annoys me for a number of reasons, but the first is that I'm writing about Hyperloop style systems by using the name Hyperloop.
+
+The idea of firing a capsule through a low pressure tube using magnetic propulsion is not a new idea. It's easily a hundred years old. But because someone who's only skill is to be rich and to not know what they're doing {{% marginnote %}} This is a skill. Levels of massive self belief (plus money) means that you can go up to the industry leaders in the field with an idea which isn't really feasible and then throw money at them until they try. Some of them will work, because it's not that the idea was impossible it's that it was outside the normal risk envelope, and therefore impossible to fund. If you don't know that your idea is stupid, and you pay enough very clever people to try and do it, without having it be a make or break proposition, then you'll probably get a good outcome most of the time. {{% /marginnote %}} made up a word for an ancient concept we all have to call it that. Anyway, he did. And we do.
+
+The problem with Maglev is the cost. Making a tunnel big enough to move people through is hard and it's expensive. Making the tunnel airtight is even harder. You also have to build to exacting standards and do a lot of maintenance, because if something goes wrong, people die. If something goes wrong really really fast then people die very quickly. You have to be extra extra careful.
+
+You can mitigate some of these problems. The first thing you can do is make your tunnel smaller. The smaller the tunnel, the cheaper it is to build. This is why the first hyperloop test tunnel is big enough for a car and not for a train. The problem is that cars are terrible for mass transport. They're good for flexibility, they can go wherever you want, but for capacity, terrible. The thing is, that a tube only has 1 place you can go. So you now have terrible capacity and terrible flexibility. 
+
+Let's keepmitigating. Make the tunnels even smaller and... here's the good bit, don't put any humans in them. Build very very small tunnels and use them to move boxes. If you make them small enough you can add in switching mechanisms to route around a network and blammo. A big network of high speed automated micro freight. You can even build to a lower safety standard, because losing a small box of stuff every 100 million trips or so is very different to losing a train full of people.
+This of course is also not a new idea.
+There's a small company called [Magway](https://www.magway.com/) near me building such a thing. I think it's a great idea. I wonder if they want to hire a Rail Modelling and Simulations data scientist?

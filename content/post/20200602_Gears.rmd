@@ -1,18 +1,17 @@
 ---
-title: "All the gears and cogs"
+title: "All the Gears and Cogs"
 author: "David Rickmann"
 date: "2020-06-02"
 output: html_document
-draft: true
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 This is planned to be a brief note on the things I used to make this website. 
 
-I needed to make a website for [someone](notebook.lisamcnulty.co.uk) to post their daily writing. {{% marginnote %}} It turned out that this daily writing habit was having a lot of benefits for them, so I copied it {{% /marginnote %}} So, my first instinct was of course, to load up R Studio and start there.
+I needed to make a website for [someone](https://notebook.lisamcnulty.co.uk) to post their daily writing. {{% marginnote %}} It turned out that this daily writing habit was having a lot of benefits for them, so I copied it {{% /marginnote %}} So, my first instinct was of course, to load up R Studio and start there.
 
 I like R and I like R studio. 
 
