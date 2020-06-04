@@ -5,10 +5,20 @@
     <link>/post/</link>
     <description>Recent content in Posts on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Timelapse Experiments</title>
+      <link>/2020/06/04/timelapse-experiments/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/04/timelapse-experiments/</guid>
+      <description>I found an old camera when I was tidying up. So I decided to try and find a use for it.
+The camera is a TP-Link NC250. It’s an end of life product so is unsupported.The first step was to plug it in and see if it would connect. The first experiment yielded very little. It was connecting via an extension router. I tried both WPS and ethernet, but the TPCamera app reported “Can’t Find Camera”.</description>
+    </item>
     
     <item>
       <title>Hyperloop (But Good)</title>
