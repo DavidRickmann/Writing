@@ -4,12 +4,47 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/06/07/recipe-improvisational-doughnuts/</loc>
+    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/recipes/</loc>
+    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/drabble/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/06/06/drabble-idempotence/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,11 +68,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2020/06/01/the-colours-of-butterflies/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -48,17 +78,12 @@
   </url>
   
   <url>
-    <loc>/series/making-a-cookbook-recipes/</loc>
+    <loc>/series/making-a-cookbook/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/2020/05/30/recipes-in-r/</loc>
-    <lastmod>2020-05-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
     <lastmod>2020-05-30T00:00:00+00:00</lastmod>
   </url>
   

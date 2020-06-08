@@ -5,10 +5,29 @@
     <link>/</link>
     <description>Recent content on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Recipe: Improvisational Doughnuts</title>
+      <link>/2020/06/07/recipe-improvisational-doughnuts/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/07/recipe-improvisational-doughnuts/</guid>
+      <description>I’m not a great cook. I would say that I am broadly competent. I do however consider myself to be a reasonably good solver of problems. So in that spirit I’m going to write this whilst I am cooking this recipe. &amp;#8853; Or at least whilst I try and invent a suitable recipe  This may turn out to be a complete disaster. But on the principle that you should report all your trials (and not just the succesful ones) I’m going to write as I cook.</description>
+    </item>
+    
+    <item>
+      <title>Drabble: Idempotence</title>
+      <link>/2020/06/06/drabble-idempotence/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/06/drabble-idempotence/</guid>
+      <description>A drabble is a short piece of fiction 100 words in length. This is not quite that, It’s an attempt to explain a concept in exactly 100 words. This is my first go writing to this particular format, but if you’d like to see it done well (and to learn some philosophy at the same time) have a look at these.
+An idempotent function is one which if run multiple times produces the same output as if it were run only once.</description>
+    </item>
     
     <item>
       <title>Timelapse Experiments</title>

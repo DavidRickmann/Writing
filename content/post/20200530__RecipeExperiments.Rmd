@@ -3,8 +3,8 @@ title: "Recipes in R"
 author: "David Rickmann"
 date: "2020-05-30"
 series:
-  -"Making a Cookbook"
-  -"Recipes"
+  - "Making a Cookbook"
+  - "Recipes"
 output: html_document
 ---
 
