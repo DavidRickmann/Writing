@@ -25,7 +25,7 @@ if we do it again:
 ```{r}
 x <- toupper(x)
 ```
-the output remains:  `r x`.
+the output remains:  `r x`.   
 and it will remain the same no matter how many times we do it.
 
 This can be very helpful for all sorts of reasons, like when you want to maintain the consistency of a data source or when you want to send a function over a noisy channel. 

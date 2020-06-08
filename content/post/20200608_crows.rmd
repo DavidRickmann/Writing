@@ -1,0 +1,37 @@
+---
+title: "Crows"
+author: "David Rickmann"
+date: "2020-06-08"
+---
+
+
+There are some crows on the island.
+
+A few years ago I came home from the shops with a little snack, a hot cumberland sausage on a stick. I was going to sit on the deck of my boat with a drink and a sausage. I went down into the boat to get some ice and a glass. A crow flapped up on to the mast of the boat moored next to mine, and I heard a *caw-caw* noise.
+
+I found a glass, and ice, and started back up the steps to the deck.   
+The crow on the mast *caw-caw* ed. The call was echoed by another crow, perched on the bridge behind me.  
+As I reached the deck I saw two crows fly off towards the island carrying between them my entire cumberland sausage.
+
+Working as a team the crows has assigned two lookouts and a small strike team of two other crows. Between them they'd opened up my shopping bag, dragged out the brown paper bag containing my hot cumberland sausage, opened that bag and made off with my lunch.
+
+As much as I wanted to swear eternal vengeance {{% marginnote %}} because I really like sausages {{% /marginnote %}} I couldn't help but be impressed with their fieldcraft. 
+I've been trying ever since to befriend the island crows.
+
+I've done this by establishing a "Crow Bowl". Into the crow bowl I put all of the leftovers that might otherwise go into the bin or the river.
+I've tried to make sure that the crows see me put food there, because crows have been shown to be able recognise individual humans. {{% marginnote %}} I don't want anyone stealing my social credit with the crows! {{% /marginnote %}} Over time the crows have got more and more accepting of my presence. They used to fly off if I was visible at all, whereas now they're quite happy to let me stand next to the crow bowl whilst they eat.
+
+I took [the camera](/2020/06/04/timelapse-experiments/) that I found recently and set it up looking at the crow bowl this morning.
+It took them a little while to get used to it. They were certainly more hesitant than usual to come and eat the leftover mashed potatoes that I put out for them, but after a few exploaratory flybys they decided that the mash was worth the risk.
+
+The next step is to train up the murder for home defence purposes.
+
+
+```{r, eval=TRUE, echo = FALSE}
+blogdown::shortcode("youtube", "AxGjYwtN29Y")
+```
+
+
+```{r, eval=TRUE, echo = FALSE}
+blogdown::shortcode("youtube", "cmmMtMgpg3A")
+```
