@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vagary on Dave&#39;s Notebook</title>
+    <link>/series/vagary/</link>
+    <description>Recent content in Vagary on Dave&#39;s Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/series/vagary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command Interface: Connecting Devices</title>
+      <link>/2020/06/09/command-interface-connecting-devices/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/09/command-interface-connecting-devices/</guid>
+      <description>I have this boat that I live in.I have long had plans to add automation solutions and sensors and all sorts of fun things to it. But I’ve rarely had the time or energy, and also things like floors and walls have generally taken precedence.
+We now have quite a few floors &amp;#8853; Also quite a few flaws, but I’m working on that.  and walls, albeit not quite as many as we should have.</description>
+    </item>
+    
+  </channel>
+</rss>
