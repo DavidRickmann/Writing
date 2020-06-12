@@ -4,8 +4,8 @@ author: "David Rickmann"
 date: "2020-06-09"
 series: "Vagary"
 ---
-
-I have [this boat](https://twitter.com/VagaryBoat) that I live in.
+  
+  I have [this boat](https://twitter.com/VagaryBoat) that I live in.
 I have long had plans to add automation solutions and sensors and all sorts of fun things to it. But I've rarely had the time or energy, and also things like floors and walls have generally taken precedence. 
 
 We now have quite a few floors {{% marginnote %}} Also quite a few flaws, but I'm working on that. {{% /marginnote %}} and walls, albeit not quite as many as we should have. So I'm going to indulge myself a little by doing a little work on the gadgets. Today I'll do a first pass on trying to get R to talk to some of the existing gadgets.

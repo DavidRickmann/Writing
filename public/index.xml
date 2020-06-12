@@ -5,10 +5,31 @@
     <link>/</link>
     <description>Recent content on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Command Interface: Simple Interface Experiment</title>
+      <link>/2020/06/10/command-interface-simple-interface-experiment/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/10/command-interface-simple-interface-experiment/</guid>
+      <description>I’ve been playing around with the idea of bringing together a bunch of my boat’s information and control systems into one slightly more cohesive control console.
+I put a little bit of time into putting together an appropriate console to test the pump control. &amp;#8853; The control system for the pump is hopefully only a stopgap solution. It should be possible to control all the systems without having to go out to the internet and back.</description>
+    </item>
+    
+    <item>
+      <title>Q&#39;apla</title>
+      <link>/2020/06/10/qapla/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/10/qapla/</guid>
+      <description>Who wants a post that’s super niche and also kinda dumb.
+It occasionally occurs to me that there is a similarity between the words Q’apla and Krie. &amp;#8853; Q’aplan in Klingon.  Q’apla is, of course Klingon for “Victory”. But Klingons being Klingons it’s often used to mean, “Get Ready” or “Good Luck” or “Attention”
+Kree is Jaffa for “Yoo Hoo!”. But also can be used as a term meaning “Attention!</description>
+    </item>
     
     <item>
       <title>Command Interface: Connecting Devices</title>

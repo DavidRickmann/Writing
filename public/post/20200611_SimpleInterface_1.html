@@ -1,0 +1,10 @@
+
+
+<p>I’ve been playing around with the idea of bringing together a bunch of my boat’s information and control systems into one slightly more <a href="/2020/06/09/command-interface-connecting-devices/">cohesive control console.</a></p>
+<p>I put a little bit of time into putting together an appropriate console to test the pump control. {{% marginnote %}} The control system for the pump is hopefully only a stopgap solution. It should be possible to control all the systems without having to go out to the internet and back. Also I want to be able to get some of the data out of the pump controller, which this method doesn’t allow. {{% /marginnote %}} Now, given that I’m amassive nerd, and given that my boat is the same size as a <a href="https://memory-alpha.fandom.com/wiki/Danube_class">danube class runabout</a> (without the warp nacelles) I thought I’d aim for an appropriately styled interface throughout.</p>
+<p>First off, since were using R, the obvious framework for the interactive interface is to use <a href="https://shiny.rstudio.com/">shiny</a>. Shiny is a lovely library that rolls together pretty much everything you need to produce an interactive interface to R. It’s really good.</p>
+<p>There are a few different aesthetics that you can add on top of shiny. These are mostly to help you make dashboards to show all t he pretty graphs you’ve made. Lucky for me <a href="https://twitter.com/leonawicz">Matthew Leonawicz</a> has put together a <a href="https://leonawicz.github.io/lcars/index.html">library to theme shiny to look like LCARS.</a>.</p>
+<p>Here’s an incredibly early version that I put together this evening just to make some buttons that I can press to turn the pump on and off.</p>
+<p><img src="/img/20200611_Interface1.PNG" /></p>
+<p>I need to get the alternate control system up and running so I can put some status alerts and graphs in the surrounding spaces.</p>
+<p>Another nice library that I’ve added is the config library, so that I can add ship name, ship registration and the secret key in a seperate .yml file.</p>
