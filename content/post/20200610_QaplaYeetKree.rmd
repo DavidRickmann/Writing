@@ -6,8 +6,8 @@ date: "2020-06-10"
   
 Who wants a post that's super niche and also kinda dumb.
 
-It occasionally occurs to me that there is a similarity between the words Q'apla and Krie. {{% marginnote %}} ![](/img/Qapla.png)   
-Q'aplan in Klingon. {{% /marginnote %}}
+It occasionally occurs to me that there is a similarity between the words Q'apla and Kree. {{% marginnote %}} ![](/img/Qapla.png)   
+Q'apla in Klingon. {{% /marginnote %}}
 
 Q'apla is, of course Klingon for "Victory". But Klingons being Klingons it's often used to mean, "Get Ready" or "Good Luck" or "Attention"
 

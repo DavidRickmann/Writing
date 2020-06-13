@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Command Interface: Further interfaces</title>
+      <link>/2020/06/10/command-interface-further-interfaces/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/10/command-interface-further-interfaces/</guid>
+      <description>Today’s project was to try and enhance the very basic interface I built yesterday.
+HomeFirst I built a frontpage to let me navigate around the application. It currently looks like this:
+It works quite nicely on a full screen touch panel.
+Since it’s running in shiny it automatically exists as a server on the network.I’ve given it a fixed port to run on so that you can access it from any device on the boat.</description>
+    </item>
+    
+    <item>
       <title>Command Interface: Simple Interface Experiment</title>
       <link>/2020/06/10/command-interface-simple-interface-experiment/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
