@@ -3,7 +3,7 @@
 
 <head>
 <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/index.xml" />  
-<title>Dave&#39;s Notebook - Tags</title>
+<title>Dave&#39;s Notebook - Snippets</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,113 +65,68 @@
 <section>
 <h1 class="content-title">
   
-  <a href="/tags/">Tags</a>
+  <a href="/2020/06/17/snippets/">Snippets</a>
   
 </h1>
 
-</section>
+
+
+  <span class="content-meta">
+    
+       <i class="fa fa-user">&nbsp;</i><span class="author">
+         &nbsp;David Rickmann</span> <br>
+    
+
 
     
-    <div class="pure-g">
-      <div class="pure-u-1 pure-u-sm-1-2">
-        <h2>By Frequency</h2>
-        <section>
-        <table class="pure-table pure-table-horizontal pure-table-striped">
-        <thead>
-          <tr>
-            <th>Term</th>
-            <th>Count</th>
-          </tr>
-        </thead>
-        </tbody>
-        
-          <tr>
-            <td>
-            <a href="data-science">
-            data-science
-            </a>
-            </td>
-            <td>1</td>
-          </tr>
-        
-          <tr>
-            <td>
-            <a href="drabble">
-            drabble
-            </a>
-            </td>
-            <td>1</td>
-          </tr>
-        
-          <tr>
-            <td>
-            <a href="physics">
-            physics
-            </a>
-            </td>
-            <td>1</td>
-          </tr>
-        
-          <tr>
-            <td>
-            <a href="rstudio">
-            rstudio
-            </a>
-            </td>
-            <td>1</td>
-          </tr>
-        
-        </tbody>
-        </table>
-      </section>
-      </div>
+      <i class="fa fa-calendar"></i>
+      &nbsp;Jun 17, 2020
+    
 
-      <div class="pure-u-1 pure-u-sm-1-2">
-        <h2>Alphabetically</h2>
-        <section>
-        <table class="pure-table pure-table-horizontal pure-table-striped">
-        <thead>
-          <tr>
-            <th>Term</th>
-            <th>Count</th>
-          </tr>
-        </thead>
-        </tbody>
-        
-          <tr>
-            <td><a href="data-science">
-              data-science
-            </a></td>
-            <td>1</td>
-          </tr>
-        
-          <tr>
-            <td><a href="drabble">
-              drabble
-            </a></td>
-            <td>1</td>
-          </tr>
-        
-          <tr>
-            <td><a href="physics">
-              physics
-            </a></td>
-            <td>1</td>
-          </tr>
-        
-          <tr>
-            <td><a href="rstudio">
-              rstudio
-            </a></td>
-            <td>1</td>
-          </tr>
-        
-        </tbody>
-        </table>
-        </section>
-      </div>
-    </div>
-<footer class="page-footer">
+    
+      &nbsp;<i class="fa fa-clock-o"></i>
+      &nbsp;1 min read
+    
+
+    
+      <br>
+      <i class="fa fa-tags"> </i>
+      
+        <a  href="/tags/rstudio">RStudio</a>
+      
+        <a  href="/tags/drabble">Drabble</a>
+      
+    
+  </span>
+
+
+</section>
+
+
+
+<section>
+
+
+<p>R studio has a very helpful tool called snippets.
+<label for="marginnote-cef09ae4e244232d249902b8d4ccada5-0" class="margin-toggle">&#8853;</label>
+<input type="checkbox" id="marginnote-cef09ae4e244232d249902b8d4ccada5-0" class="margin-toggle"/>
+<span class="marginnote"> So… this was supposed to be a very quick post about a nice thing I found to speed up my workflow. But I wanted to write in the post the literal shortcodes used. This meant that they were interpreted and turned into a marginnote rather than displayed.<br />
+What I needed to do was <em>escape</em> the shortcodes, but nothing I tried seemed to work. After <em>a lot</em> more googling than I’m really happy admitting I posted a stack exchange question and someone got me the answer. But it was surprisingly hard to discover for what I had assumed would be a straightforward thing.<br />
+It is apparently an undocumented feature.
+</span>
+
+Snippets let you designate an alias for small bits of code that you use often. You can assign a shortcut to a piece of code and call it up when you need it. These also work in markdown documents, like this one.</p>
+<p>For example, The shortcode to add a marginnote is:</p>
+<p>{{% marginnote <em>/%}}
+…
+{{%/</em> /marginnote %}}</p>
+<p>It’s not particularly complicated, but it’s annoying. So I added a snippet.
+Now I type “margin” and press SHIFT + TAB and it automatically fills in what I need.</p>
+</section>
+<section>
+  
+
+  <footer class="page-footer">
 		<hr>
 		<ul class="page-footer-menu">
 		
@@ -205,6 +160,7 @@ if (!doNotTrack) {
 }
 </script>
 
+</section>
 </article>
 </div>
 </body>

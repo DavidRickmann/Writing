@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drabble on Dave&#39;s Notebook</title>
+    <link>/tags/drabble/</link>
+    <description>Recent content in Drabble on Dave&#39;s Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/drabble/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Snippets</title>
+      <link>/2020/06/17/snippets/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/17/snippets/</guid>
+      <description>R studio has a very helpful tool called snippets.&amp;#8853; So… this was supposed to be a very quick post about a nice thing I found to speed up my workflow. But I wanted to write in the post the literal shortcodes used. This meant that they were interpreted and turned into a marginnote rather than displayed.
+What I needed to do was escape the shortcodes, but nothing I tried seemed to work.</description>
+    </item>
+    
+  </channel>
+</rss>

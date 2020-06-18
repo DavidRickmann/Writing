@@ -1,0 +1,29 @@
+---
+title: 'Snippets'
+author: "David Rickmann"
+date: "2020-06-17"
+tags:  
+- "RStudio"
+- "Drabble"
+output: html_document
+---
+
+
+
+
+R studio has a very helpful tool called snippets.
+{{% marginnote %}} So... this was supposed to be a very quick post about a nice thing I found to speed up my workflow. But I wanted to write in the post the literal shortcodes used. This meant that they were interpreted and turned into a marginnote rather than displayed.   
+What I needed to do was _escape_ the shortcodes, but nothing I tried seemed to work. After *a lot* more googling than I'm really happy admitting I posted a stack exchange question and someone got me the answer. But it was surprisingly hard to discover for what I had assumed would be a straightforward thing.   
+It is apparently an undocumented feature. 
+{{% /marginnote %}}
+Snippets let you designate an alias for small bits of code that you use often. You can assign a shortcut to a piece of code and call it up when you need it. These also work in markdown documents, like this one.
+
+For example, The shortcode to add a marginnote is:
+
+{{%/* marginnote */%}}
+...
+{{%/* /marginnote */%}}
+
+
+It's not particularly complicated, but it's annoying. So I added a snippet.
+Now I type "margin" and press SHIFT + TAB and it automatically fills in what I need.

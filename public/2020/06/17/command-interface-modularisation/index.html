@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/index.xml" />  
+<title>Dave&#39;s Notebook - Command Interface: Modularisation.</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Dave&#39;s Notebook">
+<meta name="generator" content="Hugo 0.69.2" />
+
+  
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+
+    <link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="/css/tufte.css">
+<link rel="stylesheet" href="/css/hugo-tufte.css">
+<link rel="stylesheet" href="/css/hugo-tufte-override.css">
+
+</head>
+
+
+<body>
+<div id="layout" class="pure-g">
+<article class="pure-u-1">
+<header class="brand">
+  <h1>Dave&#39;s Notebook</h1>
+  <h2>Writing Practice by David Rickmann.</h2>
+  <nav class="menu">
+    <ul>
+    
+        <li><a href="/"><i class='fa fa-home fa-lg'></i> Home</a></li>
+    
+        <li><a href="/post"><i class='fa fa-book fa-lg'></i> Posts</a></li>
+    
+        <li><a href="/tags"><i class='fa fa-tags fa-lg'></i> Tags</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+<section>
+<h1 class="content-title">
+  
+  <a href="/2020/06/17/command-interface-modularisation./">Command Interface: Modularisation.</a>
+  
+</h1>
+
+
+
+  <span class="content-meta">
+    
+       <i class="fa fa-user">&nbsp;</i><span class="author">
+         &nbsp;David Rickmann</span> <br>
+    
+
+
+    
+      <i class="fa fa-calendar"></i>
+      &nbsp;Jun 17, 2020
+    
+
+    
+      &nbsp;<i class="fa fa-clock-o"></i>
+      &nbsp;2 min read
+    
+
+    
+  </span>
+
+
+</section>
+
+
+
+<section>
+
+
+<p>The original plan for my boat interface project was that I would build a console in the wheelhouse <label for="marginnote-56dcb45d5a50e5172048eb14d20d72b7-0" class="margin-toggle">&#8853;</label>
+<input type="checkbox" id="marginnote-56dcb45d5a50e5172048eb14d20d72b7-0" class="margin-toggle"/>
+<span class="marginnote">After I built the wheelhouse… </span>
+ with <a href="https://thepihut.com/products/official-raspberry-pi-7-touchscreen-display">touchscreens</a> integrated into it. Each touchscreen would have an LCARS panel loaded, but would work independently.
+Any data they needed (or generated) would be fetched from a central server (or sent back) as needed. Each display could be set to any panel as needed, but would have it’s own primary function.
+So, a few panels to, by default, control environmental functions, panels to show maps or navigation stuff, but reconfigurable.</p>
+<p>With this in mind it makes sense to try and modularise the code I’m putting together down to panel level. The entire UI and Server functions should be, as much as possible, their own thing.</p>
+<p>This is where shiny modules come in.
+Modules are a pair of UI and Server functions that live in their own file and can be run (and tested) entirely separately from the rest of the application.</p>
+<p>Modules create a namespace, and that’s where their functions live.
+This makes sure that you can create an element in a module (let’s say a button in module “weatherpanel”) and call it “button1” and also a have a “button1” in the main body of your code and the two won’t get confused. button1 and weatherpanel::button1 are two different things.</p>
+<p>Modules can also be reused. <label for="marginnote-56dcb45d5a50e5172048eb14d20d72b7-1" class="margin-toggle">&#8853;</label>
+<input type="checkbox" id="marginnote-56dcb45d5a50e5172048eb14d20d72b7-1" class="margin-toggle"/>
+<span class="marginnote"> Arguably reusable code is the main reason for modules, but currently I’m only building whole panels out of modules. I will probably end up with some smaller modules as I proceed. </span>
+. When you call a module you need to tell it what it’s name is.</p>
+<pre class="r"><code>weatherpanel(&quot;wp1&quot;)</code></pre>
+<p>This creates a weatherpanel called “wp1”. The name is quite important because you also need to tell your programme where the UI for it is. That looks like this:</p>
+<pre class="r"><code>weatherpanelUI(&quot;wp1&quot;)</code></pre>
+<p>We could, if we wanted, have a different weather panel and call it “wp2”. The two panels would exist completely seperate from each other. They wouldn’t have any idea that the other existed. This is a bit pointless in the case of a module like weatherpanel, but for some other panels may be very useful.</p>
+<p>All in all. Modules are good. They help us turn quite complicated applications into smaller ones. I spent much of today turning everything I’d so far done into modules.</p>
+</section>
+<section>
+  
+
+  <footer class="page-footer">
+		<hr>
+		<ul class="page-footer-menu">
+		
+		</ul>
+
+  
+
+	<div class="copyright">
+	<p>
+    
+      &copy; 2020
+    David Rickmann.
+    All rights reserved.
+    
+  </p>
+</div>
+</footer>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-167883624-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</section>
+</article>
+</div>
+</body>
+</html>

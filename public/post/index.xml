@@ -5,10 +5,29 @@
     <link>/post/</link>
     <description>Recent content in Posts on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Snippets</title>
+      <link>/2020/06/17/snippets/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/17/snippets/</guid>
+      <description>R studio has a very helpful tool called snippets.&amp;#8853; So… this was supposed to be a very quick post about a nice thing I found to speed up my workflow. But I wanted to write in the post the literal shortcodes used. This meant that they were interpreted and turned into a marginnote rather than displayed.
+What I needed to do was escape the shortcodes, but nothing I tried seemed to work.</description>
+    </item>
+    
+    <item>
+      <title>Command Interface: Modularisation.</title>
+      <link>/2020/06/16/command-interface-modularisation./</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/16/command-interface-modularisation./</guid>
+      <description>The original plan for my boat interface project was that I would build a console in the wheelhouse &amp;#8853; After I built the wheelhouse…  with touchscreens integrated into it. Each touchscreen would have an LCARS panel loaded, but would work independently.Any data they needed (or generated) would be fetched from a central server (or sent back) as needed. Each display could be set to any panel as needed, but would have it’s own primary function.</description>
+    </item>
     
     <item>
       <title>Command Interface: Further interfaces</title>
