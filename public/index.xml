@@ -5,10 +5,29 @@
     <link>/</link>
     <description>Recent content on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why to write every day?</title>
+      <link>/2020/06/19/why-to-write-every-day/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/19/why-to-write-every-day/</guid>
+      <description>There are a lot of articles about maing writing every day a habit.
+Engineers (a category which I broadly include myself, if only because I don’t know what other title I can choose) are not very good writers.From what I can tell there is only one way to improve this, and that is by writing. My wife started a daily(ish) writing habit and was very quickly churning out very good writing.</description>
+    </item>
+    
+    <item>
+      <title>Tools: Todoist</title>
+      <link>/2020/06/18/tools-todoist/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/18/tools-todoist/</guid>
+      <description>I think (or at least I hope) that everyone has similar issues with productivity. There are a lot of things that we want to do, but also there is Stargate to rewatch and the remaster of Command &amp;amp; Conquer just came out &amp;#8853; Because apparently I just want it to be the late 90’s again. Is that so wrong?  and those things are easier than actually doing anything productive.</description>
+    </item>
     
     <item>
       <title>Snippets</title>
@@ -27,6 +46,15 @@ What I needed to do was escape the shortcodes, but nothing I tried seemed to wor
       
       <guid>/2020/06/16/command-interface-modularisation./</guid>
       <description>The original plan for my boat interface project was that I would build a console in the wheelhouse &amp;#8853; After I built the wheelhouse…  with touchscreens integrated into it. Each touchscreen would have an LCARS panel loaded, but would work independently.Any data they needed (or generated) would be fetched from a central server (or sent back) as needed. Each display could be set to any panel as needed, but would have it’s own primary function.</description>
+    </item>
+    
+    <item>
+      <title>Something</title>
+      <link>/2020/06/13/something/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/13/something/</guid>
+      <description>More on cookingShould we key the ingredients?Does it make sense to have butter (for example) listed more than once.Well, yes, if you use it for different things.Quite often a cake will have butter but will also have butter cream frosting. If it’s all listed together you need to specifiy in the recipe how much to use. I think it would be better to have a field listing sub assemblies of the recipe and keying on sub assembly+ingredientreference cooking for engineers</description>
     </item>
     
     <item>

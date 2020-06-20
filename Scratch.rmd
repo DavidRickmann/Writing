@@ -1,44 +1,37 @@
-Daily Writing Exercises
-
-
-
-*Why to write every day?*
-
-There are a lot of articles about maing writing every day a habit.
-
-Find some links.
-
-Engineers (a category which I broadly include myself, if only because I don't know what other title I can choose) are not very good writers.
-From what I can tell there is only one way to improve this, and that is by writing. My wife started a daily(ish) (writing habit)[notebook.lisamcnulty.co.uk] and was very quickly churning out very good writing. This is not really a surprise, she's a philosopher, and their deliverables take the form of writing. They usually don't even have any graphs in! This is something she should be (and is) good at. 
-
-By contrast. I'm an engineer, we pretend that our outputs are something other than writing, but in a fundamental way 
-
-I think I should revisit this article regularly.
+# Daily Writing Exercise Topics 
 
 
 
 
 
-
-
-
-
-*Elephants. I guess.*
+## Elephants. I guess.
 
 More on topsy
 Murderous Mary
 
+## Checking
+ 
+ Checking is important.
+
+Why checking is important
+
+checking your results
+
+
+checking as you go
+In data science you will often be taking a set of inputs and transforming them
 
 
 
 
-*Why autonomous cars are not a solution.*
+
+
+## Why autonomous cars are not a solution.
 
 The problem with cars is not anything to do with humans having to drive them.
 
 
-
-*River freight and local hubs.*
+## River freight and local hubs.
 
 Most towns in Britain are built around a river. Not all, but most.
 This is because rivers provide several vital functions. 
@@ -53,17 +46,17 @@ But we don't do that anymore. Why now?
 
 
 
-*Last mile for humans and for freight.*
-Magway, drone hubs.
+## Last mile for humans and for freight.
+drone hubs.
 Link to river freight.
 
-*Epistemic groups within transport or engineering*
+## Epistemic groups within transport or engineering
 
-*Building self presenting models with R *
+## Building self presenting models with R 
 
-*Replacing powerpoint with R Shiny*
+## Replacing powerpoint with R Shiny
 
-*R Markdown experiments*
+## R Markdown experiments
 
 embedding graphs and stuff in R markdown
 ```{r cool-plot, fig.cap='A cool plot.'}
@@ -71,11 +64,19 @@ plot(cars, pch = 20)  # not really cool
 ```
 
 
-*Transport data formats*
+## Transport data formats
 GTFS
 TransXChange
 CIF
 Etc.
+
+## Being an expert
+I'm at an odd point with expertise. I'm clearly an expert at something. I have all the trappings. I tend to be employed as a senior something or a principal something else. I've been doing what is now called "Data Science" for at least 15 years. But I don't really feel like I know anything. Or at least, everything I do think I know is very obvious. Anyone could do it.
+The problem is (I hope) to do with 
+Everything I read is written by people who really do know what they're doing. Those are the people I want to learn things from. There are lots of them and they all know a lot of things that I do not know. Those are the intersting and useful skills, not the ones I've got.
+For now I will try and comfort myself with the thought that it's my expertise that highlights 
+
+## Creating a recipe Schema
 
 *More on cooking*
 Should we key the ingredients?
@@ -85,9 +86,6 @@ Quite often a cake will have butter but will also have butter cream frosting. If
 reference cooking for engineers
 
 
-*Being an expert*
-I'm at an odd point with expertise. I'm clearly an expert at something. I have all the trappings. I tend to be employed as a senior something or a principal something else. I've been doing what is now called "Data Science" for at least 15 years. But I don't really feel like I know anything. Or at least, everything I do think I know is very obvious. Anyone could do it.
-The problem is (I hope) to do with 
-Everything I read is written by people who really do know what they're doing. Those are the people I want to learn things from. There are lots of them and they all know a lot of things that I do not know. Those are the intersting and useful skills, not the ones I've got.
-For now I will try and comfort myself with the thought that it's my expertise that highlights 
+## Command Interface
+
 

@@ -1,0 +1,43 @@
+---
+title: 'Tools: Todoist'
+author: "David Rickmann"
+date: "2020-06-18"
+series:
+- "Tools"
+tags:  
+- "RStudio"
+output: html_document
+---
+
+I think (or at least I hope) that everyone has similar issues with productivity. There are a lot of things that we want to do, but also there is Stargate to rewatch and the remaster of Command & Conquer just came out  {{% marginnote %}} Because apparently I just want it to be the late 90's again. Is that so wrong? {{% /marginnote %}} and those things are *easier* than actually doing anything productive.
+
+So I turn to various tools to help. One of those tools is [**Todoist**](https://todoist.com/).   
+Todoist is a tool that manages my todo list. I use it extensively. There are various productivity systems which lean on todo lists but I have never really subscribed to any of these approaches, because it seemed like a lot of work, and I'm wary of such heavily structured approaches. However, I think at least one of them talks about how remembering what you need to do takes mental energy, and you could use that mental energy for better purposes and that made a lot of sense to me. 
+
+To that end I try to add everything that I need to do to my todo list. 
+
+Why Todoist?
+
+### Scheduling
+There's a few different ways tasks can be scheduled.
+Firstly you can just type a time to do it and todoist will figure out when to put it. But also there are recurring tasks. I have a recurring task set up a couple of weeks before everyone's birthday so I have time to get a gift. I have recurring tasks that happen every day (write this post) and tasks which occur every 5 years (Survey the boat). 
+
+
+### Integrations
+I can access my todoist list anywhere.
+
+* It connects to my email account, so any emails I star become tasks.
+* I can yell at an Alexa and it creates tasks.
+* I have an app on my phone. It let's me, amongst other things share a tweet as a task and it gets sent to todist.
+* I have an app in my crowser.
+* There is even an API so that the tasks I need to do for my [Interface Project](/series/vagary/) can exist in a todoist project and be displayed, added, completed all in the Interface itself.
+* It connects to an personal analytics service [exist](http://exist.io).
+ 
+### Flexibility
+Ultimately todo lists should be flexible. Though I'll try and do everything in a day that I said I would, realistically, I probably never will. Apparently 40% of all tasks in todo lists are never completed {{% marginnote %}} TODO: Find a relaiable source for this quote to see if it's true. (Add this to the list of uncompleted tasks)   {{% /marginnote %}} so having the capacity to reschedule, delete, move stuff around is very helpful. But I also like to label up tasks that I can do whenever. I have a label in todoist "@Whenever" and a view which shows me what I need to do today plus anything marked "@whenever". I've had a few different set-ups like that in the past, tasks that I could do when I was at home, or at the office appropriately labelled so I could be sure to focus only on the right ones at the right times, but right now it's just the whenever label.
+ 
+ There are a bunch of other useful features {{% marginnote %}} being able to put loads of notes and comments in tasks is helpful. The geo fencing of tasks also is, theoretically helpful, but I've very rarely used it.  {{% /marginnote %}} but ultimately what I like is that it's actually a very simple app at heart. It's just a list. But it works for me.
+ 
+Now I can tick off "write a post"
+ 
+ 

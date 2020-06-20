@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RStudio on Dave&#39;s Notebook</title>
-    <link>/tags/rstudio/</link>
-    <description>Recent content in RStudio on Dave&#39;s Notebook</description>
+    <title>Tools on Dave&#39;s Notebook</title>
+    <link>/series/tools/</link>
+    <description>Recent content in Tools on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/series/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,16 +17,6 @@
       
       <guid>/2020/06/18/tools-todoist/</guid>
       <description>I think (or at least I hope) that everyone has similar issues with productivity. There are a lot of things that we want to do, but also there is Stargate to rewatch and the remaster of Command &amp;amp; Conquer just came out &amp;#8853; Because apparently I just want it to be the late 90’s again. Is that so wrong?  and those things are easier than actually doing anything productive.</description>
-    </item>
-    
-    <item>
-      <title>Snippets</title>
-      <link>/2020/06/17/snippets/</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/06/17/snippets/</guid>
-      <description>R studio has a very helpful tool called snippets.&amp;#8853; So… this was supposed to be a very quick post about a nice thing I found to speed up my workflow. But I wanted to write in the post the literal shortcodes used. This meant that they were interpreted and turned into a marginnote rather than displayed.
-What I needed to do was escape the shortcodes, but nothing I tried seemed to work.</description>
     </item>
     
   </channel>
