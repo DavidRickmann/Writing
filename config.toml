@@ -1,4 +1,4 @@
-
+#baseurl = "notebook.davidrickmann.co.uk"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 contentdir = "content"
 layoutdir = "layouts"
