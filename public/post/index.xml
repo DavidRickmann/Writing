@@ -5,10 +5,60 @@
     <link>/post/</link>
     <description>Recent content in Posts on Dave&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>End of Month Report</title>
+      <link>/2020/07/30/end-of-month-report/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/30/end-of-month-report/</guid>
+      <description>I’m a little wary of the DRAFT functionality in blogdown/hugo. So this might get published too soon if it doesn’t work.I guess we’ll see if it does.
+This will hopefully be a bit more complete than last month’s entry. I’m going to try and keep it updated as I go.So, in roughly date order:
+Bought the child tiny potion bottles so she can make tiny potions. They’re adorable and imported from china for pennies.</description>
+    </item>
+    
+    <item>
+      <title>Projects Diary</title>
+      <link>/2020/07/29/projects-diary/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/29/projects-diary/</guid>
+      <description>I’m going to try and keep a track of how various projects are going all in one place and push it at the end of the month.This means I can make a note of smaller progress that doesn’t warrant a post of it’s own.
+Interface2nd July 2020Another fairly radical overhaul.I’ve set up an openhab server. Openhabe has already done the hard work of setting up bindings to common household smart devices.</description>
+    </item>
+    
+    <item>
+      <title>Watermelons</title>
+      <link>/2020/07/04/watermelons/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/04/watermelons/</guid>
+      <description>The child watches a lot of YouTube. A lot of it is completely terrible and I wish they would watch less.One of the channels they watch is called “Slick Slime Sam” It is one of the ones that I don’t mind all that much because it features a person &amp;#8853; Well, a persons hands and voice. Presumably there is a person attached.  assisted by a pink creature &amp;#8853; I’m not sure what it’s supposed to be.</description>
+    </item>
+    
+    <item>
+      <title>river freight</title>
+      <link>/2020/07/03/river-freight/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/03/river-freight/</guid>
+      <description>yesRiver freight and local hubs.Most towns in Britain are built around a river. Not all, but most.This is because rivers provide several vital functions.
+Firstly, how do you get fresh water.Secondly, how do you get rid of sewage.Rivers are great at both of these, for a while. But as the numbers go up, so do the problems.
+Rivers are also pretty great for moving stuff around.</description>
+    </item>
+    
+    <item>
+      <title>End Of Month Report - June</title>
+      <link>/2020/06/30/end-of-month-report-june/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/30/end-of-month-report-june/</guid>
+      <description>Some people I know aspire to read a lot. To that end they’re recording their monthly reading on their notebook. I’ve not found the time or motivation to do a lot of reading, nor do I especially aspire to.I do aspire to do interesting things. Life is easier when you sit around watching stargate and playing computer games from the 90s, but it’s more fulfilling when you do some interesting things.</description>
+    </item>
     
     <item>
       <title>Why to write every day?</title>
@@ -46,15 +96,6 @@ What I needed to do was escape the shortcodes, but nothing I tried seemed to wor
       
       <guid>/2020/06/16/command-interface-modularisation./</guid>
       <description>The original plan for my boat interface project was that I would build a console in the wheelhouse &amp;#8853; After I built the wheelhouse…  with touchscreens integrated into it. Each touchscreen would have an LCARS panel loaded, but would work independently.Any data they needed (or generated) would be fetched from a central server (or sent back) as needed. Each display could be set to any panel as needed, but would have it’s own primary function.</description>
-    </item>
-    
-    <item>
-      <title>Something</title>
-      <link>/2020/06/13/something/</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/06/13/something/</guid>
-      <description>More on cookingShould we key the ingredients?Does it make sense to have butter (for example) listed more than once.Well, yes, if you use it for different things.Quite often a cake will have butter but will also have butter cream frosting. If it’s all listed together you need to specifiy in the recipe how much to use. I think it would be better to have a field listing sub assemblies of the recipe and keying on sub assembly+ingredientreference cooking for engineers</description>
     </item>
     
     <item>
