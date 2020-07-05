@@ -1,0 +1,25 @@
+---
+title: "Timelapse Experiments"
+author: "David Rickmann"
+date: "2020-06-04"
+output: html_document
+---
+
+
+
+<p>I found an old camera when I was tidying up. So I decided to try and find a use for it.</p>
+<p>The camera is a TP-Link NC250. It’s an end of life product so is unsupported.
+The first step was to plug it in and see if it would connect. The first experiment yielded very little. It was connecting via an extension router. I tried both WPS and ethernet, but the TPCamera app reported “Can’t Find Camera”. This is not a helpful error message.</p>
+<p>I scanned the network to see if the camera showed up. It did show up when I connected, but it then dropped off again straight away.
+A few more experiments suggested that the problem may have been that the app and the camera were getting confused by being attached to a secondary router. {{% marginnote %}} Something something NAT addresses something something don’t check {{% /marginnote %}}
+I tried connecting to the main router and the problem went away first time.</p>
+<p>The next issue was that the tpCamera app doesn’t have a timelapse function. The camera does motion detection and night vision, but no timelapse.
+I tried doing this manually, taking a picture every 5 minutes, but this gave me more of a slideshow than a timelapse. A single second of video has 24 frames. So, a picture every 5 minutes gives me 2 hours per second. That’s way more lapsing than I wanted.</p>
+<p>In order to get the kind of effect I wanted I needed a picture every 3 seconds. There is, obviously, no way I could do that manually.
+A bit of googling let me to <a href="http://www.candylabs.com/videovelocity">VideoVelocity</a>. This is timelapse specific software that reads a camera feed, or a bunch of photos. {{% marginnote %}} It would be more on brand if I found a way to do it in R. It looks like the <a href="https://www.rdocumentation.org/packages/Rvision/versions/0.3.5">RVision</a> could have done this. I’ll try it some time. {{% /marginnote %}} The next challenge was to find the stream from the camera. The documentation didn’t seem to mention where camera was serving the stream.</p>
+<p>It took a bit of faffing and searching to discover that I needed to give it:
+<a href="http://Camera_IP:80/stream/snapshot.jpg" class="uri">http://Camera_IP:80/stream/snapshot.jpg</a> along with a username and a <a href="https://en.wikipedia.org/wiki/Base64">Base64</a> encoded password.</p>
+<p>Once I’d tracked that down VideoVelocity did it’s thing, and I left it alone for 9 hours.
+It’s limited to low res images, and some of the fancier features are only available for licenced users. But it’s not bad! {{% marginnote %}} $95 was a bit steep for me. Especially if it turns out I can do it in R {{% /marginnote %}}</p>
+<p>Here’s the result.</p>
+{{% youtube "1gGlKcoaEDI" %}}

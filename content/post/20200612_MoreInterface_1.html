@@ -1,0 +1,45 @@
+---
+title: "Command Interface: Further interfaces"
+author: "David Rickmann"
+date: "2020-06-10"
+series: "Vagary"
+---
+
+
+
+<p>Today’s project was to try and enhance the <a href="/2020/06/10/command-interface-simple-interface-experiment/">very basic interface I built yesterday.</a></p>
+<div id="home" class="section level3">
+<h3>Home</h3>
+<p>First I built a frontpage to let me navigate around the application. It currently looks like this:</p>
+<p><img src="/img/interface/20200612_home.PNG" /></p>
+<p>It works quite nicely on a full screen touch panel.</p>
+<p>Since it’s running in shiny it automatically exists as a server on the network.
+I’ve given it a fixed port to run on so that you can access it from any device on the boat.</p>
+<p>This is set up with a reactiveValues variable called panel. Pressing any button changes this value.
+Then the whole interface is rendered in a RenderUI() function. {{% marginnote %}} The header isn’t rendered here. Just the specific panel. So I can have framing elements which don’t depend on the panel, or even use the same setup for subpanels. {{% /marginnote %}}
+Oh. Also it goes <a href="http://www.trekcore.com/audio/computer/computerbeep_5.mp3">beep</a> when you press a button.
+The beeps are currently server side only. Which is a little odd.</p>
+<p>It means that if you beep a panel on another device then my laptop beeps. I have a solution for that in mind, but this is still basically a toy prototype it’s fine to be a bit squirrely.</p>
+<p>Let’s have a look at some other panels:</p>
+<ul>
+<li>Library</li>
+<li>Environmental</li>
+<li>Sensors</li>
+</ul>
+</div>
+<div id="library" class="section level3">
+<h3>Library</h3>
+<p>I have a lot of documents about the boat that have been floating around in various folders. I thought this would be a nice place to try and bring them all together. Since I’ve had a bit of practice with R markdown in the past month or so I thought I would put it to use and integrate markdown documents.
+In fact the styling on the front page (excluding the buttons and stuff) is also a markdown document.</p>
+<p>The problem so far is that markdown docs are added using includemarkdown() which does all the html rendering. Any nice links between docs won’t work because there isn’t anything in place to render them or to make sure they appear in the application frame. I haven’t figured out a good solution to this yet.</p>
+</div>
+<div id="environmental" class="section level2">
+<h2>Environmental</h2>
+<p>This only has one control currently, the pump controls. It looks like this:</p>
+<p><img src="/img/interface/20200612_environmental.png" /></p>
+<p>I’m led to believe that I can access some of the power usage and status data for the pump using the other control method, which I am yet to implement, so I’d like to include some of that information in all that spare space.</p>
+</div>
+<div id="sensors" class="section level2">
+<h2>sensors</h2>
+<p>Not yet implemented. I hope to include the camera stream from my <a href="/2020/06/04/timelapse-experiments/">ip camera</a> as a first pass. {{% marginnote %}} I really only included this button as an excuse to do a <a href="http://www.trekcore.com/audio/computer/denybeep1.mp3">sad beep</a> if you try and access it. {{% /marginnote %}}</p>
+</div>
