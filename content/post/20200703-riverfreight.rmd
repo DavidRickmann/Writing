@@ -2,13 +2,7 @@
 title: river freight
 author: Dave Rickmann
 date: '2020-07-03'
-slug: river-freight
-categories: []
-tags: []
-math: no
-meta: yes
-toc: yes
-draft: yes
+draft: TRUE
 ---
 
 ## River freight and local hubs.
