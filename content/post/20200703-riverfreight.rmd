@@ -1,7 +1,7 @@
 ---
-title: river freight
-author: Dave Rickmann
-date: '2020-07-08'
+title: River Freight
+author: David Rickmann
+date: '2020-07-30'
 draft: TRUE
 ---
 
@@ -17,3 +17,9 @@ Rivers are great at both of these, for a while. But as the numbers go up, so do 
 Rivers are also pretty great for moving stuff around.
 But we don't do that anymore. Why now?
 
+Anyway Autonomous cargo boats
+
+
+
+
+London congestion caused by cargo vehicles
