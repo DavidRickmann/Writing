@@ -1,0 +1,22 @@
+---
+title: "Automated Reporting"
+author: "David Rickmann"
+date: '2020-07-06'
+draft: TRUE
+---
+  
+In many ways I am very lazy. I think probably most people who are interested in code are.    
+By that I mean, lazy in a creative way. Why do hours of painstaking work if you can write a script that does this for you.   
+There is an adage which suggests that "anything you need to do more than once should be a function" I don't know if I'd go that far, but it's certainly close to true.
+{{% marginnote %}} That said I've definitely spent 10 hours automated a 30 second task in the past.   {{% /marginnote %}}
+
+
+In freelance or consulting work this can be very favourable because time very directly is money. If you can achieve something quickly {{% marginnote %}}  So long as it's done to a high standard that is. I'm not suggesting you cut corners to make a buck. That's a bad way to go.  {{% /marginnote %}} with automation or existing code or what have you then you can deliver early, you can bill fewer hours or if it's a fixed price contract you can make more profit. 
+
+So one thing I'm interested in, is getting R to add in as much in the way of reporting and documentation as possible.
+I'm going to leave documentation to one side for now, because it's hard and is never done properly and requires a post (or several) of it's own and I'm going to look at automated reporting.
+
+I've been quite lax in writing for a bit, so I'm going to start by pulling some fairly basic stuff into this site and tie into my end of month report and I'll expand upon that as I go.
+
+There are two main places to look for data to report on, for data about me there is [exist.io](https://exist.io/?referred_by=DavidRickmann) or for data about the boat there is the [OpenHab](https://www.openhab.org/) server. This is reporting on me, so we'll be looking at exist.io.
+`\r blogdown::shortcode('tweet', 'tweet code')`

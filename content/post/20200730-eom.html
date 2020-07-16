@@ -3,25 +3,51 @@ title: End of Month Report
 author: David Rickmann
 date: '2020-07-30'
 draft: TRUE
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    fig_width: 6
 ---
 
 
+<div id="TOC">
+<ul>
+<li><a href="#intro"><span class="toc-section-number">1</span> Intro</a></li>
+<li><a href="#things-of-interest"><span class="toc-section-number">2</span> Things of Interest</a><ul>
+<li><a href="#tiny-potions"><span class="toc-section-number">2.1</span> Tiny Potions</a></li>
+<li><a href="#website-fidgy-widgyness"><span class="toc-section-number">2.2</span> Website Fidgy-Widgyness</a><ul>
+<li><a href="#marketing"><span class="toc-section-number">2.2.1</span> marketing!</a></li>
+</ul></li>
+<li><a href="#watermelons"><span class="toc-section-number">2.3</span> Watermelons</a></li>
+<li><a href="#dye-experiments"><span class="toc-section-number">2.4</span> Dye experiments</a></li>
+<li><a href="#gold"><span class="toc-section-number">2.5</span> GOLD!</a></li>
+</ul></li>
+<li><a href="#metrics"><span class="toc-section-number">3</span> Metrics</a><ul>
+<li><a href="#writing-score"><span class="toc-section-number">3.1</span> Writing Score</a></li>
+<li><a href="#exist-metrics"><span class="toc-section-number">3.2</span> Exist metrics</a></li>
+</ul></li>
+</ul>
+</div>
 
-<div id="intro" class="section level2">
-<h2>Intro</h2>
+<div id="intro" class="section level1">
+<h1><span class="header-section-number">1</span> Intro</h1>
 <p>I’m a little wary of the DRAFT functionality in blogdown/hugo and it turns out I was right to be, because this got published when it was still in draft.
 It turns out that was because I pushed the public folder from my local setup so netlify wasn’t doing it’s own build.
 I’ve now set the public folder to be ignored and removed it from GitHub, so netlify should properly build everything itself.</p>
 <p>This will hopefully be a bit more complete than last month’s entry. I’m going to try and keep it updated as I go.
 So, in roughly date order:</p>
 </div>
+<div id="things-of-interest" class="section level1">
+<h1><span class="header-section-number">2</span> Things of Interest</h1>
 <div id="tiny-potions" class="section level2">
-<h2>Tiny Potions</h2>
+<h2><span class="header-section-number">2.1</span> Tiny Potions</h2>
 <p>Bought the child tiny potion bottles so she can make tiny potions. They’re adorable and imported from china for pennies. So almost certainly environmentally and ethically atrocious. Something to work on.</p>
 <p><img src="/img/potions.jpg" /></p>
 </div>
 <div id="website-fidgy-widgyness" class="section level2">
-<h2>Website Fidgy-Widgyness</h2>
+<h2><span class="header-section-number">2.2</span> Website Fidgy-Widgyness</h2>
 <p>Added a “Related content” section to <a href="http://notebook.lisamcnulty.co.uk">Lisa’s notebook</a>. Her site is so much better than this one. {{% marginnote %}} I mean, contentwise, sure that was obvious, because she is good at writing and I am not. But I mean technically better. {{% /marginnote %}} This may seem odd because I update them both. I will probably import some of the improvements over at some point.
 Features her site has that mine does not include:</p>
 <ul>
@@ -38,14 +64,18 @@ But, figuring it out and getting it working was pretty satisfying. So it was wor
 <li><p>Social Media meta tags. It makes Twitter cards with nice images and does something on facebook that I don’t understand. {{% marginnote %}} I added Facebook Opengraph metatags. But I don’t use facebook and she doesn’t post links to her site there. Most of them are duplicates of the Twitter tags anyway, so it’s not great hardship to have those added. {{% /marginnote %}}</p></li>
 <li><p>Oh. On preview I realise I had also fixed an issue with bullet points being condensed into too small a space. I had better import that fix before I publish this. (I did.)</p></li>
 </ul>
+<div id="marketing" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> marketing!</h3>
+<p>I also did <a href="/2020/07/14/advertising/">an experiment</a> with promoting Lisa’s <a href="https://notebook.lisamcnulty.co.uk/page/sherlock/">upcoming lecture series</a> and discovered that skeevy social media engagement is actually very valuable as part of a marketing strategy.</p>
+</div>
 </div>
 <div id="watermelons" class="section level2">
-<h2>Watermelons</h2>
+<h2><span class="header-section-number">2.3</span> Watermelons</h2>
 <p>Made a watermelon juice dispenser out of a watermelon.<br />
 Then threw it off a bridge.</p>
 <p>I’ve looked up a few more “Make a watermelon juice dispenser” videos.
-I like this one:
-{{% youtube "8EOzqEoL4mQ" %}}</p>
+I like this one:</p>
+{{% youtube "8EOzqEoL4mQ" %}}
 <p>Because</p>
 <ul>
 <li>They advise you to trim the base so it can stand up.<br />
@@ -53,4 +83,36 @@ I like this one:
 <li>They mention that you must strain the watermelon or you’ll clog the tap.</li>
 <li>They add A LOT of rum.</li>
 </ul>
+</div>
+<div id="dye-experiments" class="section level2">
+<h2><span class="header-section-number">2.4</span> Dye experiments</h2>
+<p>The child needed a yellow t-shirt. I did not have a yellow T-shirt, so I <a href="/2020/07/16/yellow-t-shirt/">made one.</a>
+This was pretty satisfying. I like to come across a problem and generate a neat solution. It’s even better when it actually works.</p>
+</div>
+<div id="gold" class="section level2">
+<h2><span class="header-section-number">2.5</span> GOLD!</h2>
+<p>I bought some gold.
+Why? Very good question.</p>
+<p>I have been doing some online science experiments. This is a bit of a spin off from previous experiments where people ask me to look at faces and then watch me get confused. {{% marginnote %}} I have a damaged brain which means I can’t remember faces. No, not like you can’t. Like, properly sciency can’t. There’s an experiment that they run on me from time to time where I look at faces and have to match them to a lineup. I can do this very well if they’re on screen at the same time, but then they show the face, and then 2 seconds of fuzzy static and then the lineup and all of a sudden I have no clue whatsoever. {{% /marginnote %}} There is <a href="https://minds.testable.org/ref/3c4c124b6c91">a site</a> which runs similar studies online. So I’ve been doing some of those.</p>
+<p>They pay me a very small amount of money and wanted to send it to a company called <a href="https://revolut.com/referral/david7abl">Revolut</a> so that I could spend it. I noticed in the app they allow all sortd of very strange commodities trading.
+I thought it would be funny to own a tiny amount of gold, so I bought £1.97 worth of gold.</p>
+<p>As I write this it is currently worth £1.92. {{% marginnote %}}<br />
+I might update this value when I come to post this post. I might not. {{% /marginnote %}}</p>
+</div>
+</div>
+<div id="metrics" class="section level1">
+<h1><span class="header-section-number">3</span> Metrics</h1>
+<div id="writing-score" class="section level2">
+<h2><span class="header-section-number">3.1</span> Writing Score</h2>
+<p>The goal is to write something everyday. I so far am not doing all that well on that goal, so let’s track it and see if that helps.
+In fact, this seems like something potentially automatable. Cab I write a script to give me this score automatically?
+And if so can I use that same script to generate a continually updated graph month by month.
+{{% marginnote %}} I’m writing this on the 5th of the month, so by the time I remove the draft tag on this post I guess we’ll see if I’ve done this. {{% /marginnote %}}</p>
+</div>
+<div id="exist-metrics" class="section level2">
+<h2><span class="header-section-number">3.2</span> Exist metrics</h2>
+<p>Exist.io is a service which tracks and aggregates personal data.
+It also has an API, so since I can embed R into this blog I can poll that API directly to get key facts about the past month.
+This hopefully means that I can set up a template (Can I use the blog frontmatter as a variable in an R chunk?) which will automatically add these metrics every month.</p>
+</div>
 </div>

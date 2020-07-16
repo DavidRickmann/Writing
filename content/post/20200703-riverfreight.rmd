@@ -1,7 +1,0 @@
----
-title: Test
-author: David Rickmann
-date: 2020-07-05
----
-
-I'm playing around with the build settings.

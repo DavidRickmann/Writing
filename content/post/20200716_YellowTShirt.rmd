@@ -1,0 +1,41 @@
+---
+title: "Yellow T-Shirt"
+author: "David Rickmann"
+date: '2020-07-16'
+---
+  
+The school has informed me that the child needs a Yellow T-Shirt for sportsday. Sportsday is tomorrow, and we do not own a child sized yellow t-shirt.
+I'm pretty sure there isn't enough time to get one sent. Even next day delivery isn't going to get her before 0830. 
+
+I suppose if it comes to it I can mask up and trawl around various shops in search of one, but I had things I wanted to do today. {{% marginnote %}} I probably won't do them, but still...   {{% /marginnote %}} So my first pass solution is going to be to take one of the existing plain white t-shirts and make it yellow.
+
+## Step One: Fixative
+
+I'm going to try dying a white cotton t-shirt using Turmeric. Bear with me some or all of the following may be completely wrong.
+So, what I want to do is pre-mordant the t-shirt using a metallic salt. This way when I apply the turmeric dye it will form a coordination complex with the metal ion forming the coordination centre and binding the ligands (in this case the turmeric)
+
+![](/img/turmeric.png)
+
+
+Lucky for me I've got a big load of sodium chloride here. So we can use that. 
+What this means in practice is that I'm going to boil a t0shirt for an hour in salty water. This will make the dye stick better and also make the t-shirt more delicious.
+
+It's cooked, so I've taken it out and hung it up.
+I also licked it to test for saltyness. Don't do that. It was INCREDIBLY salty.
+
+## Step Two: Making the dye
+
+Turmeric is a delicious and very yellow rhizome. It's an important ingredient in Indian and SOutheast Asian cuisines.
+It has long been thought to have medicinal properties, and it might do so, but none of these claims have yet been proven.
+
+I've rinsed out the salty pot and added 1.5 litres of water and 6 tablespoons of turmeric and set it to boil for 15 minutes.
+
+Then we dunk in our t-shirt.
+It's currently looking orangey yellow. I think when I wash it out it will be more yellow than orange.
+Apparently the red component is because Curcumin (the active ingredient in this process) contains a sequence of conjugated (alternating single and double) bonds. The length of the conjugated section changes when exposed to alkaline solutions, and that makes it go redder.
+In fact you can take some damp turmeric dyed cloth and spray it with baking soda and it should go bright red!
+
+I left the t-shirt in the dye for about an hour, rinsed it, popped it in the washing machine and voila. A new yellow t-shirt.
+
+
+

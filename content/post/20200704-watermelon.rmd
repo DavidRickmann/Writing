@@ -3,6 +3,8 @@ title: Watermelons
 author: David Rickmann
 date: 2020-07-04
 output: html_document
+fig_width: 6
+
 ---
 
 
@@ -13,6 +15,7 @@ One of the channels they watch is called "Slick Slime Sam" It is one of the ones
 
 It was this channel which inspired the child to request that we buy a watermelon and put a tap in it.
 Here's the video. I can't wholeheartedly recommend that you watch it in full. 
+
 
 ```{r, eval=TRUE, echo=FALSE}
 blogdown::shortcode("youtube", "ntbshM2bJEk")

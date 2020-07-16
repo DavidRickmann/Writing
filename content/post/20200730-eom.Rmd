@@ -3,9 +3,15 @@ title: End of Month Report
 author: David Rickmann
 date: '2020-07-30'
 draft: TRUE
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    fig_width: 6
 ---
 
-## Intro
+# Intro
 
 I'm a little wary of the DRAFT functionality in blogdown/hugo and it turns out I was right to be, because this got published when it was still in draft.
 It turns out that was because I pushed the public folder from my local setup so netlify wasn't doing it's own build.
@@ -14,6 +20,7 @@ I've now set the public folder to be ignored and removed it from GitHub, so netl
 This will hopefully be a bit more complete than last month's entry. I'm going to try and keep it updated as I go.
 So, in roughly date order:
 
+# Things of Interest
 
 ## Tiny Potions
 
@@ -39,6 +46,10 @@ But, figuring it out and getting it working was pretty satisfying. So it was wor
 
 * Oh. On preview I realise I had also fixed an issue with bullet points being condensed into too small a space. I had better import that fix before I publish this. (I did.)
 
+### marketing!
+
+I also did [an experiment](/2020/07/14/advertising/) with promoting Lisa's [upcoming lecture series](https://notebook.lisamcnulty.co.uk/page/sherlock/) and discovered that skeevy social media engagement is actually very valuable as part of a marketing strategy.
+
 ## Watermelons
   
 Made a watermelon juice dispenser out of a watermelon.   
@@ -46,6 +57,7 @@ Then threw it off a bridge.
 
 I've looked up a few more "Make a watermelon juice dispenser" videos.
 I like this one:
+
 ```{r, eval=TRUE, echo=FALSE}
 blogdown::shortcode("youtube", "8EOzqEoL4mQ")
 ```
@@ -57,5 +69,47 @@ Because
 * They add A LOT of rum.
 
   
+## Dye experiments
+
+The child needed a yellow t-shirt. I did not have a yellow T-shirt, so I [made one.](/2020/07/16/yellow-t-shirt/)
+This was pretty satisfying. I like to come across a problem and generate a neat solution. It's even better when it actually works.
+
+## GOLD!
+
+I bought some gold.
+Why? Very good question.
+
+I have been doing some online science experiments. This is a bit of a spin off from previous experiments where people ask me to look at faces and then watch me get confused. {{% marginnote %}} I have a damaged brain which means I can't remember faces. No, not like you can't. Like, properly sciency can't. There's an experiment that they run on me from time to time where I look at faces and have to match them to a lineup. I can do this very well if they're on screen at the same time, but then they show the face, and then 2 seconds of fuzzy static and then the lineup and all of a sudden I have no clue whatsoever.   {{% /marginnote %}} There is [a site](https://minds.testable.org/ref/3c4c124b6c91) which runs similar studies online. So I've been doing some of those.
+
+They pay me a very small amount of money and wanted to send it to a company called [Revolut](https://revolut.com/referral/david7abl) so that I could spend it. I noticed in the app they allow all sortd of very strange commodities trading.
+I thought it would be funny to own a tiny amount of gold, so I bought £1.97 worth of gold.
+
+As I write this it is currently worth £1.92. {{% marginnote %}}    
+I might update this value when I come to post this post. I might not. {{% /marginnote %}}
+
+
   
+  
+# Metrics
+  
+## Writing Score
+  
+The goal is to write something everyday. I so far am not doing all that well on that goal, so let's track it and see if that helps.
+In fact, this seems like something potentially automatable. Cab I write a script to give me this score automatically?
+And if so can I use that same script to generate a continually updated graph month by month.
+{{% marginnote %}} I'm writing this on the 5th of the month, so by the time I remove the draft tag on this post I guess we'll see if I've done this.    {{% /marginnote %}}
+
+
+
+
+## Exist metrics
+
+Exist.io is a service which tracks and aggregates personal data.
+It also has an API, so since I can embed R into this blog I can poll that API directly to get key facts about the past month.
+This hopefully means that I can set up a template (Can I use the blog frontmatter as a variable in an R chunk?) which will automatically add these metrics every month.
+
+
+
+
+
 
