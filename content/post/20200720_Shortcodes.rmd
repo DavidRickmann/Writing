@@ -1,0 +1,46 @@
+---
+title: "Fixing my Shortcodes"
+author: "David Rickmann"
+date: '2020-07-20'
+---
+  
+The output formatting of this blog has been going wrong for a few days.
+I have some time now to fix it, so why not cross of two todoist items instead of one.
+
+## What's Wrong?
+
+The most evident problem is that marginnotes are not rendering properly.
+The line after the marginnote is turning into marginnote formatting but not in the right place.
+{{% marginnote %}} I also have one draft post appearing on the production build somehow. 
+That's a different problem.
+    {{% /marginnote %}}
+
+## But Why?
+
+I am pretty sure this is happening because I changed the way the site build process works.
+The site was being built locally and then sent to the internet. I changed it so that the production build would happen on Netlify.
+This was so that I could write posts, and mark them as draft. Draft posts get shown on dev, but not on production. 
+
+The issue here is that the site is built on Hugo and uses a Hugo theme.
+The shortcodes for creating a margin note work in Hugo and Netlify understands this.
+However I am actually using Blogdown to create the site. This is because Blogdown let's me use .Rmd files (instead of just .md files) and means I can embed r chunks.
+
+The process for turning the .rmd in to .md breaks the shortcodes.
+This was fine locally when blogdown was handling the build, but apparently is not fine on Netlify.
+
+## So what are you gonna do about it?
+
+I was going to look at escaping the shortcodes differently, but it occurs to me that if this works locally but not on Netlify there might be different versions of Hugo at play.
+I know that Hugo has changed it's behaviour in the past. 
+
+blogdown::hugo_version() reports that I am using 0.69.2 here.
+
+I can mirror that in Netlify by setting an environment variable. 
+And that seems like it works!
+
+## Conclusion
+
+This turned out to be easier to solve than I thought. I think I wouldn't have considered matching the Hugo Versions if I hadn't been writing about the problem and how I was going to solve it.
+Perhaps there is a useful lesson here that I should write about the problem I am trying to solve as a self rubber duck.
+This was a simple case, but it seems to work well. {{% marginnote %}} It's also a good excuse for a post.   {{% /marginnote %}}
+

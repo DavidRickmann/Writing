@@ -19,4 +19,3 @@ I'm going to leave documentation to one side for now, because it's hard and is n
 I've been quite lax in writing for a bit, so I'm going to start by pulling some fairly basic stuff into this site and tie into my end of month report and I'll expand upon that as I go.
 
 There are two main places to look for data to report on, for data about me there is [exist.io](https://exist.io/?referred_by=DavidRickmann) or for data about the boat there is the [OpenHab](https://www.openhab.org/) server. This is reporting on me, so we'll be looking at exist.io.
-`\r blogdown::shortcode('tweet', 'tweet code')`

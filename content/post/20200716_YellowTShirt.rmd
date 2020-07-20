@@ -7,7 +7,10 @@ date: '2020-07-16'
 The school has informed me that the child needs a Yellow T-Shirt for sportsday. Sportsday is tomorrow, and we do not own a child sized yellow t-shirt.
 I'm pretty sure there isn't enough time to get one sent. Even next day delivery isn't going to get her before 0830. 
 
-I suppose if it comes to it I can mask up and trawl around various shops in search of one, but I had things I wanted to do today. {{% marginnote %}} I probably won't do them, but still...   {{% /marginnote %}} So my first pass solution is going to be to take one of the existing plain white t-shirts and make it yellow.
+I suppose if it comes to it I can mask up and trawl around various shops in search of one, but I had things I wanted to do today. 
+
+
+{{% marginnote %}} I probably won't do them, but still...   {{% /marginnote %}} So my first pass solution is going to be to take one of the existing plain white t-shirts and make it yellow.
 
 ## Step One: Fixative
 
