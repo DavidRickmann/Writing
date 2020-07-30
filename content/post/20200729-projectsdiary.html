@@ -1,8 +1,8 @@
 ---
 title: Projects Diary
 author: David Rickmann
-date: '2020-07-29'
-draft: TRUE
+date: '2020-07-30'
+draft: FALSE
 ---
 
 
@@ -21,4 +21,55 @@ I want this system to be doing more than just smarthome gadget control (though t
 <p>I’ve ordered a wifi light switch from China which was quite cheap but will take months to arrive.
 I’ve heard mixed reviews, but if it works I will get a couple more. The boat doesn’t actually have main lights in the hold, only lamps. So I can build the automation in at source when I finally get round to installing them.</p>
 </div>
+<div id="th-july-2020" class="section level3">
+<h3>16th July 2020</h3>
+<p>The aforementioned fancy lightswitch arrived much earlier!
+But I realise I had not taken into account the fact that I have a light switch and a separate dimmer switch wired about a metre apart for absurd reasons. It would make sense (but be a lot more work) to uninstall the second light switch and just have the one. Especially since the dimmer doesn’t work all that well with LED bulbs, but that’s a lot more work. I do have a light installed in my wardrobe, which I might use as a test.</p>
+</div>
+</div>
+<div id="bits-and-pieces" class="section level2">
+<h2>Bits and Pieces</h2>
+<p>I’ve ended up not working that much on this project this month. At least, the later part.<br />
+I did a few bits and pieces, but nothing very significant.</p>
+<div id="openhab" class="section level3">
+<h3>OpenHab</h3>
+<p>I’ve tweaked the OpenHab server a little here and there, and added all the devices I could find that I could add.
+The Smart TV can be controlled via OpenHab, I can change channels, volume and turn it off, but I can’t turn it on.
+I added a new network switch so that it’s on a wired connection, but still no luck.
+Beyond that I think I need to start including some sensors and specific switched devices.</p>
+<p>I also want to look into the database hooks to add data persistence.</p>
+</div>
+<div id="voice-recognition" class="section level3">
+<h3>Voice Recognition</h3>
+<p>I’ve added a very basic voice recognition layer using <a href="https://www.talater.com/annyang/">annyang</a>, a javascript voice recognition library.
+It’s relatively basic, but it does work.
+I haven’t really done much more than play with it.</p>
+</div>
+<div id="weather." class="section level3">
+<h3>Weather.</h3>
+<p>I’ve messed around with the Norwegian Weather API but I’ve found it to be a little unreliable.
+I STILL haven’t added any error handling to that code, so if it can’t get to the API it just breaks everything.
+I think OpenHab can provide weather data, so I may swap to using that.</p>
+</div>
+</div>
+<div id="boatwork" class="section level2">
+<h2>Boatwork</h2>
+<div id="a-newish-door" class="section level3">
+<h3>A New(ish) Door</h3>
+<p>The Front cabin had a door but that was before the corridor had a floor.
+So I removed the door to add the floor {{% marginnote %}} Also, I added more walls. They got in the way a bit too. {{% /marginnote %}} and have only now got round to cutting it down to make it fit again.
+So, now there is a door. That’s something.</p>
+</div>
+<div id="enforced-plumbing" class="section level3">
+<h3>Enforced Plumbing</h3>
+<p>There was a minor plumbing disaster in the kitchen which was 100% down to my fairly sloppy original installation work.
+I did it in a rush because we hadn’t had a kitchen in the boat. Ever. And I was keen to get it in.
+However in fixing a blockage I disloged some pipes and then discovered my pipe access hatch had become blocked by a new wall I built.
+I plan to fix that today (or maybe tomorrow, because today is busy).
+This will fix several problems (Dishwasher flooding, sink flooding, mild panic about how bad the plumbing is. Emergency Valve Access, and so on.)</p>
+</div>
+</div>
+<div id="paid-work" class="section level2">
+<h2>Paid Work</h2>
+<p>Had a nice chat with the people at D2 Consulting and I’m going to start work with them in September as their new Principal Data Specialist.</p>
 </div>

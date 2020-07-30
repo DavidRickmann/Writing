@@ -98,3 +98,22 @@ reference cooking for engineers
 
 ## Training Neural Nets and Sniffer dogs
 
+
+## A shared universe management system
+
+Shared universes are great.
+Giant entertainment conglomerates are not great
+
+But giant shared universes do need some kind of regulating authority to suggest what is cannon and what is not cannon.
+What if we could have a story universe system a bit like software repositories.
+
+Each story could list it's requirements
+(example, you're writing about peter parker spiderman, set and include at teh start of your story including peter parker origin)
+
+Then these stories can be assembled into a coherent universe.
+Don't like a story? Fork the universe. Built your own distribution which includes what you like and excludes what you don't.
+Or, maybe you like a story that was set a long time before your universe, you want your characters to refer to it, but don't want it to have actually happened in universe import that story as a myth?
+
+
+
+

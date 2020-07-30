@@ -26,7 +26,7 @@ So, in roughly date order:
 
 Bought the child tiny potion bottles so she can make tiny potions. They're adorable and imported from china for pennies. So almost certainly environmentally and ethically atrocious. Something to work on.
 
-![](/img/potions.jpg) 
+![](/img/EOM_202007/potions.jpg) 
 
 ## Website Fidgy-Widgyness
 
@@ -46,13 +46,15 @@ But, figuring it out and getting it working was pretty satisfying. So it was wor
 
 * Oh. On preview I realise I had also fixed an issue with bullet points being condensed into too small a space. I had better import that fix before I publish this. (I did.)
 
+* I manually added some links between series posts. I'm pretty sure I can automate this, but I wanted to do it quickly for now. I will look in to automatic linking within series' later.
+
 ### marketing!
 
 I also did [an experiment](/2020/07/14/advertising/) with promoting Lisa's [upcoming lecture series](https://notebook.lisamcnulty.co.uk/page/sherlock/) and discovered that skeevy social media engagement is actually very valuable as part of a marketing strategy.
 
 ## Watermelons
   
-Made a watermelon juice dispenser out of a watermelon.   
+Made a [watermelon juice dispenser](/2020/07/04/watermelons/) out of a watermelon.   
 Then threw it off a bridge.  
 
 I've looked up a few more "Make a watermelon juice dispenser" videos.
@@ -87,8 +89,34 @@ I thought it would be funny to own a tiny amount of gold, so I bought £1.97 wor
 As I write this it is currently worth £1.92. {{% marginnote %}}    
 I might update this value when I come to post this post. I might not. {{% /marginnote %}}
 
+## Brambles
 
-  
+The island has some bramble bushes which were producing fruit so the child and I harvested them and I made a bramble cobbler.
+It had a bit too much cinnamon in, but was otherwise delicious.
+Satisfactory foraging!
+
+Also I saw a weird shiny bug!
+
+![](/img/EOM_202007/bug.png)
+
+## Not actually Pizza
+
+
+## A fox gave me a hat
+
+
+
+
+# Progress
+
+## Boatwork
+
+Boat building has taken a bit of a back seat for a while.
+This is partially because I injured my shoulder in an annoying way that has required so far over a year of physio to get it to stop hurting A LOT! but also I just got a bit fed up with it. I want to be able to spend a lot more money on it than I can, and that's disheartening.
+I do actually have a bunch of materials that I should turn into boat though, because that would get them out the way and would mean I have more boat.
+Anyway.  This month I added a door to the front cabin.
+There was a temporary door which I'd built but then I added more floor and and walls to the adjoining corridor and that door was no longer the right size. It was a relatively job of cutting it down to size and reattaching it.
+But that has been done now. Achievement achieved.
   
 # Metrics
   
@@ -109,7 +137,7 @@ It also has an API, so since I can embed R into this blog I can poll that API di
 This hopefully means that I can set up a template (Can I use the blog frontmatter as a variable in an R chunk?) which will automatically add these metrics every month.
 
 
-
+## bike riding?
 
 
 
