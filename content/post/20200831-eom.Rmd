@@ -1,5 +1,5 @@
 ---
-title: End of Month Report
+title: End of Month Report - August 2020
 author: David Rickmann
 date: '2020-08-31'
 draft: true

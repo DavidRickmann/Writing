@@ -1,5 +1,5 @@
 ---
-title: End Of Month Report - June
+title: End Of Month Report - June 2020
 author: David Rickmann
 date: '2020-06-30'
 slug: things-i-did-this-month
