@@ -19,6 +19,7 @@ I've now set the public folder to be ignored and removed it from GitHub, so netl
 
 This worked for a while {{% marginnote %}} or at least partially worked. I still have a post showing in draft for some reason, but this one didn't {{% /marginnote %}} until I posted the project diary, when all of a sudden this post was once again not draft.
 There isn't a public folder in Github so that shouldn't be the issue.
+It turns out that if there is a date attached to the post it will become not draft on that date. This post had the date 2020-07-30, so it became live on that date. I've updated it to the 31st. I don't think it will appear without me forcing a build. But We'll see.
 
 
 This will hopefully be a bit more complete than last month's entry. I'm going to try and keep it updated as I go.
@@ -105,10 +106,16 @@ Also I saw a weird shiny bug!
 
 ## Not actually Pizza
 
+The child saw a pizza that looked like a cake, so we decided to try and make one.
+
+{{% tweet 1286622324888866817 %}}
+
+It's a simple lemon cake with red buttercream icing, grated white chocolate and some fruit roll ups cut into circles.
+
 
 ## A fox gave me a hat
 
-
+I went for a bike ride and in Isleworth daw a fox carrying a baseball cap. It saw me wearing a similar hat, and gave me the hat it had. {{% marginnote %}} This is probably a generous interpretation. It probably just wanted to run away and wasn't interested enough in the hat to keep holding it whilst running away. My version is more fun though.    {{% /marginnote %}} So now I have a new hat. Or I will once I've put it through the washing machine to remove the fox from it. 
 
 
 # Progress
@@ -129,7 +136,7 @@ But that has been done now. Achievement achieved.
 The goal is to write something everyday. I so far am not doing all that well on that goal, so let's track it and see if that helps.
 In fact, this seems like something potentially automatable. Cab I write a script to give me this score automatically?
 And if so can I use that same script to generate a continually updated graph month by month.
-{{% marginnote %}} I'm writing this on the 5th of the month, so by the time I remove the draft tag on this post I guess we'll see if I've done this.    {{% /marginnote %}}
+{{% marginnote %}} I'm writing this on the 5th of the month, so by the time I remove the draft tag on this post I guess we'll see if I've done this. The answer was very much, no. I have not.  {{% /marginnote %}}
 
 
 
@@ -140,8 +147,10 @@ Exist.io is a service which tracks and aggregates personal data.
 It also has an API, so since I can embed R into this blog I can poll that API directly to get key facts about the past month.
 This hopefully means that I can set up a template (Can I use the blog frontmatter as a variable in an R chunk?) which will automatically add these metrics every month.
 
+Of course, I didn't.
+But on the plus side. Now I have a project for August.
 
-## bike riding?
+
 
 
 

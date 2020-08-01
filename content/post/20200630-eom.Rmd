@@ -6,6 +6,8 @@ slug: things-i-did-this-month
 categories: []
 tags: []
 draft: FALSE
+series:
+  - "EOM"
 ---
 
 Some [people I know](https://notebook.lisamcnulty.co.uk/series/reading/) aspire to read a lot. To that end they're recording their monthly reading on their notebook. I've not found the time or motivation to do a lot of reading, nor do I especially aspire to.
