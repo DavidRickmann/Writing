@@ -2,7 +2,7 @@
 title: End of Month Report - August 2020
 author: David Rickmann
 date: '2020-08-31'
-draft: true
+draft: false
 output:
   blogdown::html_page:
     toc: true
@@ -15,39 +15,92 @@ series:
 
 # Intro
 
-This nice thing about this being in draft rather than written up all at once is that I can add in a bit at the start reminding myself what it is I want to do this month. Then, when I inevitably fail to do that I can make a note that I didn't do it. {{% marginnote %}} Or in all probability just delete the note and pretend I didn't plan it at all.   {{% /marginnote %}} So that in mind I'll make a new section called Plans for the month.
+This nice thing about this being in draft rather than written up all at once is that I can add in a bit at the start reminding myself what it is I want to do this month. Then, when I inevitably fail to do that I can make a note that I didn't do it. {{% marginnote %}} Or in all probability just delete the note and pretend I didn't plan it at all.   {{% /marginnote %}} {{% marginnote %}} Which is of course what I did. I only acheived 1 of 3. I'm going to roll the 2 I didn't do forward but I'll list them this month so it's more obvious when I don't do them.{{% /marginnote %}}
+So that in mind I'll make a new section called Plans for the month.
 
 # Plans for the month
-
-## Update my professional website.
-
-A regular task in consulting is attaching CV's to project bids. That's always a bit of a nuisance, because you need to think of good example projects you've worked on which match the required experience. I started keeping a record of projects I'd worked on, on my wiki, but then realised I should transfer the whole thing to my proper website. I have not done a good job at that, so I want to get s bunch of projects on there properly.
 
 ## Fix the kitchen
 
 The kitchen broke. Mainly because of my fairly mediocre plumbing. {{% marginnote %}} Well, my plumbing that I very much cut corners on because I was short on time.  {{% /marginnote %}} So I'm kind of forced to go in and fix it so we have a sink working. I'm going to take the opportunity to tidy it up a bit more. Do the plumbing properly, install the socket housings which I bought maybe 5 years ago and maybe even do some tiling.
 I'd also like to get the oven fully serviced, but I don't want to do that so I'm going to hire someone for that.
 
-## Finally write that automated reporting post that's been lurking in my drafts for ages.
 
-I mentioned it last month. I want to hook the blog up to my stats recorder and automatically provide some KPIs. It turned out that it's slightly difficult {{% marginnote %}} Not actually difficult, just difficult enough to make me put off doing it when I could be doing other important projects, like playing A LOT of XCOM {{% /marginnote %}} so I kept putting it off.
- 
 
 
 # Things of Interest
 
+## Small Surprises
+
+A while ago I signed up for regular lottery tickets. Not because I expected to win anything, but because I liked the idea that there was the potential for a surprise. After about a year and a half I checked my account and had won literally nothing. The odds were just too long.
+
+I do like the idea of having a small surprise potentially lurking. So I've started a project to make this possible.
+
+### TripHunters
+
+I signed up to [Triphunters](https://triphunters.co.uk/?ri=CQjFlHKqe), which appears to be a raffle site set up by a travel agent. A bit of research suggested that it was broadly speaking above board so I signed up for a recurring weekly ticket.
+So, what are the odds on this?
+
+So I choose 5 numbers from the range 1 - 65 and I need to match between 2 and 5 of them. The more the better.
+
+So matching 2 numbers is 1 in 24. I think that matching 2 or more numbers is about 1 in 22.8.
+
+What I've learnt here is that a) my understanding of probability is rusty af and b) that assuming a weekly purchase the odds work out to a prize every 6 months or so. This is actually slightly improved because if you only match 1 number (a 1 in 3 chance) you get 1/6th of a free entry. So this works out to about 2 free entries a year. Not enough to move the needle on the odds really.
+
+Having checked the numbers I think this is a pretty decent solution for my desire for a little prize every so often. 
+
+{{% marginnote %}}  Oh. Also I won a prize. A box of fancy chocolates on the second week doing this. So that bodes well. I'll try and keep track of any prizes I win so we can see if the expected odds hold up.  {{% /marginnote %}}
+
+
+
+### Bobcat in a box
+
+This is [a service](https://bobcatinabox.com/) inspired by an [XKCD comic](https://xkcd.com/576/) that sends you randomised junk.
+Odds of receiving stuff high. 
+Quality of stuff... probably low.
+Surprise factor? Let's say.... seven.
+
+By a strange coincidence the two services end up costing pretty much exactly the same ($180 USD vs $183 USD at current exchange rates). Having done the probability maths (if it's even close to correct) I feel like TripHunters fits the surprise bill slightly better. I don't necessarily want more stuff. I want to inject the possibility of surprise. Bobcat in a Box will surprise me, but it's bounded more tightly. By which I mean, the lower level is a package or two of weird stuff a month. The upper bound is about the same. For TripHunters the lower bound is nothing, the upper bound is (phenomenally unlikly) a massive prize. 
+
+
+## I built a dam.
+
+Ever since I've lived in this boat I've watched the tide come in and watched the tide come out and I've wondered about redirecting it or blocking it or generally interacting with this unstoppable twice daily force. Maybe a tidal generator one day?
+Anyway, it was a sunny day and I had nothing better on so I dragged some rocks to the middle of the channel to see if they would have any impact on the tide. After about 40 minutes of this the tide came in. I haven't been down on the riverbed when the tide comes in before. It whooshed in rather quicker than expected. My little dam withheld the tide for about a minute before being overtopped.
+Unfortunately a reasonable span was build out of an old beam. I think if I'd had time to incorporate more rocks and mud on top of it it would have been a successful bit of infrastructure. As it was the tide took it away.
+After several tides about half of the dam is still in place. I'll try to pop back and add to it further another time.
+
+
+## Lemonade
+
+The child wanted to make lemonade and then sell lemonade at an island barbecue. Life did not give us lemons. I went to the shop and bought some.
+I looked up a recipe which involved adding a lot of sugar to some water and boiling it up to make a syrup. I also zested a couple of lemons into the syrup and it went and excitingly luminous yellow colour. It tasted like sherbet lemons.
+
+So I took that syrup and added it to the juice of about 12 lemons, and then diluted with water. It was, surprisingly, really delicious.
+I think I would add more lemon zest to the syrup next time and also more lemon juice (or less sugar) because it was ended up sweeter than intended.
+
+But all in all it was a success.
 
 # Progress
 
-# Metrics
-  
-## Writing Score
-  
+There was very little project progress this month of any kind.
+I think I mainly spent it playing Heroes of Hammerwatch. 
+So, that's not great. But at least, through use of reporting I have noticed this. So I can do better.
 
-## Exist metrics
+# Next Month
+
+I start a new full time job on the 1st of September, so I have no idea what kind of energy I will have to do anything except try and look competent.
+I will roll forward my two tasks that I planned for this month though:
 
 
+## Update my professional website.
 
+A regular task in consulting is attaching CV's to project bids. That's always a bit of a nuisance, because you need to think of good example projects you've worked on which match the required experience. I started keeping a record of projects I'd worked on, on my wiki, but then realised I should transfer the whole thing to my proper website. I have not done a good job at that, so I want to get s bunch of projects on there properly.
+
+
+## Finally write that automated reporting post that's been lurking in my drafts for ages.
+
+I mentioned it last month. I want to hook the blog up to my stats recorder and automatically provide some KPIs. It turned out that it's slightly difficult {{% marginnote %}} Not actually difficult, just difficult enough to make me put off doing it when I could be doing other important projects, like playing A LOT of XCOM {{% /marginnote %}} so I kept putting it off.
 
 
 

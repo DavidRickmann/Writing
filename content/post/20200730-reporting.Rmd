@@ -1,11 +1,12 @@
 ---
 title: "Automated Reporting"
 author: "David Rickmann"
-date: '2020-08-06'
+date: '2022-01-06'
 draft: true
 ---
   
-In many ways I am very lazy. I think probably most people who are interested in code are.    
+In many ways I am very lazy. I think probably most people who are interested in code are.    {{% marginnote %}} The proof of this is that this post has been in draft for several months.   {{% /marginnote %}}
+
 By that I mean, lazy in a creative way. Why do hours of painstaking work if you can write a script that does this for you.   
 There is an adage which suggests that "anything you need to do more than once should be a function" I don't know if I'd go that far, but it's certainly close to true.
 {{% marginnote %}} That said I've definitely spent 10 hours automated a 30 second task in the past.   {{% /marginnote %}}

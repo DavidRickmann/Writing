@@ -1,0 +1,32 @@
+---
+title: "End of Month Report - September 2020"
+author: David Rickmann
+date: '2020-09-31'
+draft: true
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    fig_width: 6
+series:
+  - "EOM"
+---
+
+
+
+
+# Intro
+
+# Updates from Last Month
+
+# Things of Interest
+
+
+## Daily Notes
+
+I'm trying a new experiment where I keep a daily log of what I'm doing. {{% marginnote %}}It works for starfleet...  {{% /marginnote %}}
+
+In Conjunction I'm also documenting as much info as I can. This is a bit related to the projects lists thing above. I forget stuff a lot and I'm terrible at note taking. {{% marginnote %}} Probably everyone forgets stuff a lot, but I can't tell, because I'm not them. Regardless I ought to be better.  {{% /marginnote %}}
+
+In order to achieve this I'm using a tool called Zettlr. At it's heart it's just a markdown editor {{% marginnote %}} I like the design philosophy which is that all the files it makes should be as independent from the tool as possible, so it makes .md files (or .rmd files if you ask it) and stores it ina  normal folders, so there is pretty much nothing that relies on the open source software.    {{% /marginnote %}} but it has systems in place to add cross links to other documents easily and in this way form a [Zettelkatsen](https://en.wikipedia.org/wiki/Zettelkasten). I need to practice more to figure out the best way of using all of this. I also have to be sure to write my logs every day.
