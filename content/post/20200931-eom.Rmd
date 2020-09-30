@@ -1,8 +1,8 @@
 ---
 title: "End of Month Report - September 2020"
 author: David Rickmann
-date: '2020-09-31'
-draft: true
+date: '2020-09-30'
+draft: false
 output:
   blogdown::html_page:
     toc: true
@@ -16,17 +16,40 @@ series:
 
 
 
-# Intro
-
-# Updates from Last Month
-
-# Things of Interest
-
-
-## Daily Notes
+## Note Taking
 
 I'm trying a new experiment where I keep a daily log of what I'm doing. {{% marginnote %}}It works for starfleet...  {{% /marginnote %}}
 
 In Conjunction I'm also documenting as much info as I can. This is a bit related to the projects lists thing above. I forget stuff a lot and I'm terrible at note taking. {{% marginnote %}} Probably everyone forgets stuff a lot, but I can't tell, because I'm not them. Regardless I ought to be better.  {{% /marginnote %}}
 
 In order to achieve this I'm using a tool called Zettlr. At it's heart it's just a markdown editor {{% marginnote %}} I like the design philosophy which is that all the files it makes should be as independent from the tool as possible, so it makes .md files (or .rmd files if you ask it) and stores it ina  normal folders, so there is pretty much nothing that relies on the open source software.    {{% /marginnote %}} but it has systems in place to add cross links to other documents easily and in this way form a [Zettelkatsen](https://en.wikipedia.org/wiki/Zettelkasten). I need to practice more to figure out the best way of using all of this. I also have to be sure to write my logs every day.
+
+It's now the end of the month.
+This system has worked reasonably well. I still need some practice to get the most use of it as a system, but at the very least it's meant that doing timesheets and reporting in weekly meetings I have something to fall back on instead of my terrible memory.
+Another advantage is that I've been using the same application to write in. This means writing in markdown. The big advantage here is that I can turn markdown into many different formats.
+I needed to write about historic projects (which I had been putting off). Because the text was in markdown it could be imported, basically for free into my [Proper Grown up website](https://www.davidrickmann.com). Neat.
+
+
+## AMPDG
+
+I had dinner with my friend Emily recently (over the internet, because Emily lives in the far far frozen north). During dinner we were talking about the goal of doing interesting things and between us hit upon the idea of a website that would collect ideas for small adventures and encourage us (and others) to go out and do them.
+
+Emily said we should make it, and set a fairly arbitrary and unrealistic date of launching it before the end of the month.
+I scoffed. But then Emily wote a list of tiny adventures and I hacked up my rubbishy "Doctor Who and Philosophy" generator to serve up random choices from the list. 
+That was in R and Shiny, but it's not hugely suited to the task so I built a website using React. I do not know react, so this was a good opportunity to learn it.
+
+Anyway, it's not yet October and we have a functioning website! It's the Automanic Pixie Dream Girl [AMPDG.pink](http://ampdg.pink).
+
+It's launched with just a very simple random list, but I have plans to add user accounts to record mini adventures and submissions. In fact the login code already works! It just doesn't actually do anything.
+There's lots to tweak and lots to build. I've planned out a database for the adventures list and user functions, which I think will be interesting to do. I'm also gonna have a tiny adventure each month.
+Even if no one uses the site ever except me and Emily it was fun and quite satisfying to learn how to build.
+
+I have my adventure picked out from the site for October. It should be fun.
+
+## Anything Else?
+
+Very little else. I've been working full time this month, so I have less time for adventures.
+
+I haven't got anything interesting from Bobcat in a box yet. But that's to be expected, I think there's likely to be a fairly long lead time before anything starts arriving and I don't want to check on the site to see what they sent. That would spoil the surprise.
+
+
