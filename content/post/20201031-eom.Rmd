@@ -1,0 +1,79 @@
+---
+title: "End of Month Report - October 2020"
+author: David Rickmann
+date: '2020-10-31'
+draft: false
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    fig_width: 6
+series:
+  - "EOM"
+---
+
+
+
+
+# Note Taking
+
+My note taking has dropped down to a weekly exercise, though still using Zettlr. 
+Also I finally added a bunch of projects to my [Proper Grown up website](https://www.davidrickmann.com). 
+These are all in markdown so can be easily repurposed. So that worked well.
+There is so little detail in a lot of them. It's kind of worrying how little I remember.
+
+
+# AMPDG
+
+[AMPDG.pink](http://ampdg.pink) is still up and running. I added some cute notecards to the site and set up a Twitter account. I have done one small adventure so far, which was to make a harvest loaf, so I could eat the mouse.
+Job done.
+
+I have my adventure picked out from the site for November!
+
+
+# Random mail surprises?
+
+Bobcat in a box have so far sent me:
+
+- some strange "Travel tokens" 
+- Some fake acorns (Facorns)
+- A cat toy ball witha  bell in.
+
+I am not all that convinced by them as a service at this point.
+I'll let them continue for a bit though, and maybe tweak my parameters slightly.
+
+I won a second little TripHunters prize!
+I'm going to choose the prize a bit closer to my birthday, but it's another £25 ish priced box of cookies/cheese/chocolate/soap type prize.
+They are so far winning in the battle of tiny potential surprises.
+
+# Exercise
+
+## Stretchy Bands
+I'm trying to improve the exercise I do.
+I enhanced the stretchy bands that I got for shoulder physio and now have a set of them. They're about good enough to do some exercises.
+
+## Stretchy Tubes
+I've added some longer tubey types with handles and stuff to my office gym.
+They're good for lateral pulldowns and stuff.
+I've already used all the bands together to get decent resistance, so I'm a bit concerned that they won't be able to keep up.  {{% marginnote %}} This is of course presuming I actually use them at all.  {{% /marginnote %}}
+
+## Gymnastic Rings
+I have some Gymnastic rings that I wanted to use for pull ups, but I haven't found a good mounting point for them. 
+
+# GHT
+
+@lisatomic (from the internet) has started a discord about "Getting Hot"
+This seems an interesting and fun goal and ties into the exercise.
+I've started using noom {{% marginnote %}} A diet thing that Lisa has used before to some success {{% /marginnote %}} to assist in making me smaller.
+The Office Gym should help me get bigger.
+I should run, but so far have not done a great job of that.
+
+Next up is clothes and grooming.
+All of my clothes are a disaster. Holes and all sorts. So I need new ones. But I don't know how to do clothes.
+GHT can help I hope.
+
+
+
+
+
